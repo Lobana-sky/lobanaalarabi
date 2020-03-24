@@ -5,9 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: "#000";
+  background: linear-gradient(90deg, rgba(247,230,238,1) 0%, rgba(206,226,250,1) 100%);
+  background-image: url("images/w.jpg");
+  /* background-image: url("ee.jpg"); */
+  /* height: 100%; */
+  background-position: fixed; 
+  background-repeat:no-repeat;
+  background-size: cover; 
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* <link rel="icon" href="/loubana.ico"> */
