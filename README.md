@@ -1,10 +1,10 @@
 # install steps
 
-npx create-react-app arabi
-npm install @material-ui/core
-npm install @material-ui/icons
-npm install react-bootstrap bootstrap
-npm install react-router-dom
+* npx create-react-app arabi
+* npm install @material-ui/core
+* npm install @material-ui/icons
+* npm install react-bootstrap bootstrap
+* npm install react-router-dom
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
