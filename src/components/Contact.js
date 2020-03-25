@@ -16,7 +16,6 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 
-
 const useStyles = makeStyles(theme => ({
   paper: {
     zIndex: 1,
@@ -35,10 +34,7 @@ export default function Contact() {
               <Slide direction="left" in={true} mountOnEnter unmountOnExit>
                 <Paper elevation={1} className={classes.paper}>
                 <img src={contact} alt="" height="50%" width="100%"/>
-
-                
                 <List className={"text-center"}>
-
 
                 <ListItem>
         <ListItemAvatar>
@@ -48,8 +44,6 @@ export default function Contact() {
         </ListItemAvatar>
         <ListItemText primary="Location" secondary="Istanbul-Turkey" />
       </ListItem>
-
-
 
       <ListItem>
         <ListItemAvatar>
