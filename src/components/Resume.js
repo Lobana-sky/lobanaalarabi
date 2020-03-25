@@ -9,7 +9,8 @@ import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Paper from "@material-ui/core/Paper";
 import Slide from "@material-ui/core/Slide";
-
+import Card from 'react-bootstrap/Card'
+import ListGroup from 'react-bootstrap/ListGroup'
 const useStyles = makeStyles(theme => ({
     root: {
       width: '100%',
@@ -61,7 +62,18 @@ return (
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <Typography>
-                    Profile details
+                    <Card >
+                        <Card.Body>
+                          <Card.Text style={{color:"black",fontSize:"10px"}}>
+                          My name is Lobana Alarabi.A Web Designer Junior.I was born in Aleppo Syria,
+                          and now living in Turkey.I studied computer engineering in Aleppo Unevirsity my specialize
+                          in artificial intelligence. Programing is my life,keeping learning more and more.
+                      </Card.Text>
+                        </Card.Body>
+                        <Card.Footer className="text-muted"> Female | 9/march/1990 | syrian</Card.Footer>
+                      </Card>
+                    
+                    
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -73,12 +85,52 @@ return (
                   >
                     <Typography className={classes.heading}>Work Experience</Typography>
                     <Typography className={classes.secondaryHeading}>
-                    Work Experience sec
+                   Aleppo University, Teaching institute, A private Libyan school,Travel Agent
+
                     </Typography>
+                    
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <Typography>
-                    Work Experience details
+
+                      <Card className="m-2">
+                        <Card.Header >Assistant Charge Affaires teaching aids –Full Time</Card.Header>
+                        <Card.Body>
+                          <Card.Text style={{color:"black",fontSize:"10px"}}>
+                          AT Mathematical Statistics Department <a href="https://alepuniv.edu.sy/view-faculty/college-of-science">College of Science</a> I taught several subjects for
+                          first second third and forth year students,
+                          Concepts of Computers,Pascal,Visual Basic and C++ subjects. I was
+                          responsible for the preparation of practical section and make
+                          examination for student on paper and computer in laboratory
+                          supervised by a professor at faculty of science at university of Aleppo,
+                          as a member of technical staff.
+                      </Card.Text>
+                        </Card.Body>
+                        <Card.Footer className="text-muted">Aleppo-Syria(24/06/2014 - 30/12/2015)</Card.Footer>
+                      </Card>
+                      <Card className="m-2">
+                        <Card.Header >Trainer at ITC Teaching institute</Card.Header>
+                        <Card.Body>
+                          <Card.Text style={{color:"black",fontSize:"10px"}}>
+                          Worked as a trainer in <a href="http://www.itc-center.com/">ITC</a> for two courses 
+                          web design level for beginner course -HTML CSS JS- responsible for student graduation projects 
+                          and secretary for women course (including ICDL).
+                      </Card.Text>
+                        </Card.Body>
+                        <Card.Footer className="text-muted">Istanbul-turkey(as I am in Istanbul)</Card.Footer>
+                      </Card>
+                      <Card className="m-2">
+                        <Card.Header >Sales Officer at Alghareb Travel Agency</Card.Header>
+                        <Card.Body>
+                          <Card.Text style={{color:"black",fontSize:"10px"}}>
+                          I work as a social media marketing – designer at <a href="http://www.alghareb-tourism.com/">Alghareb Agency</a> 
+                          Website supervisor and article editor 
+                          Ticket and hotel booking on IATI System ,Amadeus and other airlines systems also on
+                          Travel Insurance systems.
+                      </Card.Text>
+                        </Card.Body>
+                        <Card.Footer className="text-muted">Istanbul-turkey(24/06/2016)</Card.Footer>
+                      </Card>
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -95,7 +147,15 @@ return (
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <Typography>
-                    Technical Skills details
+                    <Card>
+                        <Card.Body>
+                          <Card.Text style={{color:"black",fontSize:"10px"}}>
+                          Good command of Microsoft Visual studio, Sql server 2008, Matlab.
+                          I training on webots ,sql server 2008.
+                          I develop myself in Neural Network, fuzzy logic.
+                      </Card.Text>
+                        </Card.Body>
+                      </Card>
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -105,14 +165,26 @@ return (
                     aria-controls="panel4bh-content"
                     id="panel4bh-header"
                   >
-                    <Typography className={classes.heading}>WorkShop</Typography>
+                    <Typography className={classes.heading}>WorkShop </Typography>
                     <Typography className={classes.secondaryHeading}>
-                    WorkShop second 
+                    Syria - Turkey 
                     </Typography>
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <Typography>
-                    WorkShop Details
+                    <Card>
+                        <Card.Body>
+                          <Card.Text style={{color:"black",fontSize:"10px"}}>
+                          <ul >
+                            <li>Advanced c#</li>
+                            <li>Coded Front End Web Development</li>
+                            <li>Game design</li>
+                            <li>Photoshop</li>
+                            <li>Markting</li>
+                          </ul>
+                      </Card.Text>
+                        </Card.Body>
+                      </Card>
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
@@ -124,12 +196,22 @@ return (
                   >
                     <Typography className={classes.heading}>Education</Typography>
                     <Typography className={classes.secondaryHeading}>
-                    Education second 
+                    B.A Degree
                     </Typography>
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <Typography>
-                    Education Details
+
+                    <Card>
+                        <Card.Body>
+                          <Card.Text style={{color:"black",fontSize:"10px"}}>
+                          B.A. Informatics engineering at the <a href="https://alepuniv.edu.sy/view-faculty/faculty-of-informatics-engineering">Aleppo University</a> with
+                          eleventh degree with competence in Artificial Intelligence with
+                          average 80.77% 
+                      </Card.Text>
+                        </Card.Body>
+                        <Card.Footer className="text-muted">(2008 - 2013)</Card.Footer>
+                      </Card>
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>

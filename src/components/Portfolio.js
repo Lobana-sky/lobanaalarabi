@@ -1,5 +1,4 @@
-// import Container from '@material-ui/core/Container';
-import { Container } from '@material-ui/core';
+import Container from '@material-ui/core/Container';
 import portfolio from "../images/portfolio.png"
 import Paper from "@material-ui/core/Paper";
 import Slide from "@material-ui/core/Slide";

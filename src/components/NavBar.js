@@ -28,9 +28,9 @@ const useStyles = makeStyles({
     padding:"0.40em"
   }
 });
-const activeSt={
-  background: 'rgba(206,226,250,0.5)'
-}
+// const activeSt={
+//   background: 'rgba(206,226,250,0.5)'
+// }
 function NavBar() {
   const classes = useStyles();
   const [value, setValue] = React.useState("about");
@@ -41,10 +41,10 @@ function NavBar() {
       <div className={classes.link}>
       <Container maxWidth="sm" >
       <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
-        <NavLink to="/" exact  activeStyle={activeSt}>
+        <NavLink to="/" exact  >
           <BottomNavigationAction  label="About" value="about" icon={<InfoIcon />} className={classes.nav} />
         </NavLink>
-        <NavLink to="/resume" exact  activeStyle={activeSt}> 
+        <NavLink to="/resume" exact  > 
           <BottomNavigationAction label="resume" value="resume" icon={<AndroidSharpIcon />} className={classes.nav}/>
         </NavLink>
         {/* <NavLink to="/" exact ><img src={logo} alt="" className={classes.imgSt}/>
@@ -52,10 +52,12 @@ function NavBar() {
         </NavLink> */}
         <NavLink to="/" exact ><img src={logo} alt="" className={classes.imgSt}/>
         </NavLink>
-        <NavLink to="/Portfolio" exact  activeStyle={activeSt}> 
+        <NavLink to="/Portfolio" exact  > 
           <BottomNavigationAction label="Portfolio" value="portfolio" icon={<AssignmentTurnedInSharpIcon />} className={classes.nav}/>
         </NavLink>
-        <NavLink to="/Contact" exact  activeStyle={activeSt}> 
+        <NavLink to="/Contact" exact  
+        // activeStyle={activeSt}
+        > 
           <BottomNavigationAction label="Contact" value="contact" icon={<RecentActorsSharpIcon />} className={classes.nav} />
         </NavLink>
       </BottomNavigation>
