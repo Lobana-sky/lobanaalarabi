@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5daca31605e02c662156f02de45df0db",
+    "revision": "ddfb1c4ba6446afb3ef60c21370c6b0e",
     "url": "/lobanaalarabi/index.html"
   },
   {
