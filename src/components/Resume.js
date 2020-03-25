@@ -215,6 +215,19 @@ return (
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
+
+
+
+
+                <ExpansionPanel expanded={expanded === 'panel6'} onChange={handleChange('panel6')} className={classes.all}>
+                  <ExpansionPanelSummary>
+                    <Typography className={classes.heading}>Languages</Typography>
+                    <Typography className={classes.secondaryHeading}>
+                    Arabic native - English Advanced - Turkish intermediate
+                    </Typography>
+                  </ExpansionPanelSummary>
+                  
+                </ExpansionPanel>
               </div>
               </Paper>
             </Slide>
