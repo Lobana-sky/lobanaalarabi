@@ -41,7 +41,7 @@ function NavBar() {
       <div className={classes.link}>
       <Container maxWidth="sm" >
       <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
-        <NavLink to="/" exact  >
+        <NavLink to="/lobanaalarabi" exact  >
           <BottomNavigationAction  label="About" value="about" icon={<InfoIcon />} className={classes.nav} />
         </NavLink>
         <NavLink to="/resume" exact  > 
@@ -50,7 +50,7 @@ function NavBar() {
         {/* <NavLink to="/" exact ><img src={logo} alt="" className={classes.imgSt}/>
           <BottomNavigationAction  />
         </NavLink> */}
-        <NavLink to="/" exact ><img src={logo} alt="" className={classes.imgSt}/>
+        <NavLink to="/lobanaalarabi" exact ><img src={logo} alt="" className={classes.imgSt}/>
         </NavLink>
         <NavLink to="/Portfolio" exact  > 
           <BottomNavigationAction label="Portfolio" value="portfolio" icon={<AssignmentTurnedInSharpIcon />} className={classes.nav}/>

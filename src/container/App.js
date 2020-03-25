@@ -14,7 +14,7 @@ const App = (props) => {
     <Router >
       <NavBar />
       <Divider light />
-      <Route exact path="/" component={About} />
+      <Route exact path="/lobanaalarabi" component={About} />
       <Route exact path="/resume" component={Resume} />
       <Route exact path="/Portfolio" component={Portfolio} />
       <Route exact path="/Contact" component={Contact} />
