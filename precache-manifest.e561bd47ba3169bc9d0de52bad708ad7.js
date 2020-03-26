@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92bce81de8f734bc5ef18a7cd4841336",
+    "revision": "8dfa07781cbd7927fc2f9c97211ffb60",
     "url": "/lobanaalarabi/index.html"
   },
   {
-    "revision": "9c595c4e1f7e204078d5",
+    "revision": "54043b460596028d744c",
     "url": "/lobanaalarabi/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "9864ce0615c108dc9b95",
-    "url": "/lobanaalarabi/static/css/main.9b857d74.chunk.css"
+    "revision": "5b35a511feff174a8457",
+    "url": "/lobanaalarabi/static/css/main.eaed3104.chunk.css"
   },
   {
-    "revision": "9c595c4e1f7e204078d5",
-    "url": "/lobanaalarabi/static/js/2.0737be88.chunk.js"
+    "revision": "54043b460596028d744c",
+    "url": "/lobanaalarabi/static/js/2.9ae0c6bc.chunk.js"
   },
   {
-    "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/lobanaalarabi/static/js/2.0737be88.chunk.js.LICENSE.txt"
+    "revision": "d09ac505fec0e9130a1d5b85fb3fa6dc",
+    "url": "/lobanaalarabi/static/js/2.9ae0c6bc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9864ce0615c108dc9b95",
-    "url": "/lobanaalarabi/static/js/main.cb70ad50.chunk.js"
+    "revision": "5b35a511feff174a8457",
+    "url": "/lobanaalarabi/static/js/main.ecbdba42.chunk.js"
   },
   {
     "revision": "d519d31dffd7bfa59a02",

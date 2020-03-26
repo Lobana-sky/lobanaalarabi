@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/lobanaalarabi/static/css/main.9b857d74.chunk.css",
-    "main.js": "/lobanaalarabi/static/js/main.cb70ad50.chunk.js",
-    "main.js.map": "/lobanaalarabi/static/js/main.cb70ad50.chunk.js.map",
+    "main.css": "/lobanaalarabi/static/css/main.eaed3104.chunk.css",
+    "main.js": "/lobanaalarabi/static/js/main.ecbdba42.chunk.js",
+    "main.js.map": "/lobanaalarabi/static/js/main.ecbdba42.chunk.js.map",
     "runtime-main.js": "/lobanaalarabi/static/js/runtime-main.06a8d674.js",
     "runtime-main.js.map": "/lobanaalarabi/static/js/runtime-main.06a8d674.js.map",
     "static/css/2.de424728.chunk.css": "/lobanaalarabi/static/css/2.de424728.chunk.css",
-    "static/js/2.0737be88.chunk.js": "/lobanaalarabi/static/js/2.0737be88.chunk.js",
-    "static/js/2.0737be88.chunk.js.map": "/lobanaalarabi/static/js/2.0737be88.chunk.js.map",
+    "static/js/2.9ae0c6bc.chunk.js": "/lobanaalarabi/static/js/2.9ae0c6bc.chunk.js",
+    "static/js/2.9ae0c6bc.chunk.js.map": "/lobanaalarabi/static/js/2.9ae0c6bc.chunk.js.map",
     "index.html": "/lobanaalarabi/index.html",
-    "precache-manifest.c7d2504f30c558030571aa8ec89f3e01.js": "/lobanaalarabi/precache-manifest.c7d2504f30c558030571aa8ec89f3e01.js",
+    "precache-manifest.e561bd47ba3169bc9d0de52bad708ad7.js": "/lobanaalarabi/precache-manifest.e561bd47ba3169bc9d0de52bad708ad7.js",
     "service-worker.js": "/lobanaalarabi/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/lobanaalarabi/static/css/2.de424728.chunk.css.map",
-    "static/css/main.9b857d74.chunk.css.map": "/lobanaalarabi/static/css/main.9b857d74.chunk.css.map",
-    "static/js/2.0737be88.chunk.js.LICENSE.txt": "/lobanaalarabi/static/js/2.0737be88.chunk.js.LICENSE.txt",
+    "static/css/main.eaed3104.chunk.css.map": "/lobanaalarabi/static/css/main.eaed3104.chunk.css.map",
+    "static/js/2.9ae0c6bc.chunk.js.LICENSE.txt": "/lobanaalarabi/static/js/2.9ae0c6bc.chunk.js.LICENSE.txt",
     "static/media/abbuloka.png": "/lobanaalarabi/static/media/abbuloka.f94bca67.png",
     "static/media/aboutme.png": "/lobanaalarabi/static/media/aboutme.bb25afc0.png",
     "static/media/contactme.png": "/lobanaalarabi/static/media/contactme.d6e0bd43.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.06a8d674.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.0737be88.chunk.js",
-    "static/css/main.9b857d74.chunk.css",
-    "static/js/main.cb70ad50.chunk.js"
+    "static/js/2.9ae0c6bc.chunk.js",
+    "static/css/main.eaed3104.chunk.css",
+    "static/js/main.ecbdba42.chunk.js"
   ]
 }
