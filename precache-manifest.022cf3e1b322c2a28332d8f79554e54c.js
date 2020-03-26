@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a73b8d8116b18243c1d5734ed06eef7",
+    "revision": "e1dc4924c271474bd62dd7011f94312b",
     "url": "/lobanaalarabi/index.html"
   },
   {
-    "revision": "54043b460596028d744c",
+    "revision": "0f98adc86e5bcb6dc705",
     "url": "/lobanaalarabi/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "039f0e5ddb076e3fcadf",
-    "url": "/lobanaalarabi/static/css/main.c4a2bdea.chunk.css"
+    "revision": "8e3195acfbee7dc41517",
+    "url": "/lobanaalarabi/static/css/main.b9bcbd0b.chunk.css"
   },
   {
-    "revision": "54043b460596028d744c",
-    "url": "/lobanaalarabi/static/js/2.9ae0c6bc.chunk.js"
+    "revision": "0f98adc86e5bcb6dc705",
+    "url": "/lobanaalarabi/static/js/2.a7f2c571.chunk.js"
   },
   {
     "revision": "d09ac505fec0e9130a1d5b85fb3fa6dc",
-    "url": "/lobanaalarabi/static/js/2.9ae0c6bc.chunk.js.LICENSE.txt"
+    "url": "/lobanaalarabi/static/js/2.a7f2c571.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "039f0e5ddb076e3fcadf",
-    "url": "/lobanaalarabi/static/js/main.6ae0178f.chunk.js"
+    "revision": "8e3195acfbee7dc41517",
+    "url": "/lobanaalarabi/static/js/main.eaed4b81.chunk.js"
   },
   {
     "revision": "d519d31dffd7bfa59a02",
     "url": "/lobanaalarabi/static/js/runtime-main.06a8d674.js"
+  },
+  {
+    "revision": "49b6fbc1533f79e42a6a61eaa34529fb",
+    "url": "/lobanaalarabi/static/media/40.49b6fbc1.png"
   },
   {
     "revision": "f94bca6733fcdd1fe4cf36c67e0401b8",
@@ -44,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lobanaalarabi/static/media/cv.56121787.png"
   },
   {
-    "revision": "7b24ef4fa1039294a97714e065e8e2f8",
-    "url": "/lobanaalarabi/static/media/loubana.7b24ef4f.png"
+    "revision": "c52880de42eff7b0e0c7a7604edaa6fb",
+    "url": "/lobanaalarabi/static/media/loubana.c52880de.png"
   },
   {
     "revision": "eda86401c518a586e2016c95941f42af",
@@ -58,9 +62,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5e950a7f6c8b09ce721e561c826f7583",
     "url": "/lobanaalarabi/static/media/portfolio.5e950a7f.png"
-  },
-  {
-    "revision": "763a41d5765d808f0e1f6a478f7c8996",
-    "url": "/lobanaalarabi/static/media/w.763a41d5.jpg"
   }
 ]);
