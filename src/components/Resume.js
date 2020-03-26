@@ -1,5 +1,5 @@
 import React from 'react'
-import Container from '@material-ui/core/Container';
+// import Container from '@material-ui/core/Container';
 import resume from "../images/cv.png"
 import { makeStyles } from '@material-ui/core/styles';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
@@ -10,6 +10,10 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Paper from "@material-ui/core/Paper";
 import Slide from "@material-ui/core/Slide";
 import Card from 'react-bootstrap/Card'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
+import "../App.css"
 const useStyles = makeStyles(theme => ({
     root: {
       width: '100%',
@@ -43,15 +47,16 @@ export default function Resume() {
     setExpanded(isExpanded ? panel : false);
   };
 return (
-  // <div style={ {background: 'rgba(206,226,250,0.5)',margin:"4em"}}>
-    <Container maxWidth="md" >
+  <Container fluid="md">
+  <Row>
+    <Col>
        <div>
           <div className={classes.wrapper}>
             <Slide direction="left" in={true} mountOnEnter unmountOnExit>
               <Paper elevation={1} className={classes.paper}>
 
-              <div style={{padding:"0 10em"}}>
-          <img src={resume} alt="resume" height="70%" width="100%" />
+              <div className="d-flex justify-content-center">
+          <img src={resume} alt="resume" height="70%" width="60%" />
           </div>
                   <div className={classes.root}>
                 <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')} className={classes.all}>
@@ -236,7 +241,8 @@ return (
             </Slide>
           </div>
        </div>
-     </Container>
-    // </div>
+       </Col>
+  </Row>
+</Container>
 )
 }

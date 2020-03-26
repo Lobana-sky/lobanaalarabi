@@ -1,5 +1,4 @@
 import React from 'react';
-import Container from '@material-ui/core/Container';
 import aboutme from "../images/aboutme.png"
 import Paper from "@material-ui/core/Paper";
 import Slide from "@material-ui/core/Slide";
@@ -11,7 +10,10 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
-
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
+import "../App.css"
 const useStyles = makeStyles(theme => ({
   paper: {
     zIndex: 1,
@@ -35,12 +37,14 @@ const About = () => {
     setOpen(false);
   };
     return (
-        <Container maxWidth="md" >
+      <Container fluid="md">
+      <Row>
+        <Col>
     <div className={classes.wrapper}>
       <Slide direction="left" in={true} mountOnEnter unmountOnExit>
         <Paper elevation={100} className={classes.paper} >
-          <div style={{padding:"0 10em"}}>
-          <img src={aboutme} alt="aboutme" height="70%" width="100%" />
+          <div className="d-flex justify-content-center">
+          <img src={aboutme} alt="aboutme" height="70%" width="60%" />
           </div>
           <div style={{marginTop:"1em"}}>
           <p>Hello, my name is Lobana Alarabi.A Web Designer Junior.I was born in Aleppo Syria,
@@ -96,7 +100,9 @@ const About = () => {
       </Slide>
     </div>
  
-        </Container>
+    </Col>
+  </Row>
+</Container>
     )
 };
 

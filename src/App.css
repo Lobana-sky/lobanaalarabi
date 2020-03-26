@@ -9,15 +9,9 @@
 
 @media only screen and (max-width: 500px){
   #sliderText {
-    border-radius: "0.5em";
-
-    background-color:"rgba(206,226,250,0.1)";
     display: none !important;
   }
-  #sliderText h6
-  {
-    font-size: "10px";
-  }
+  
 }
 
 .App-header {
