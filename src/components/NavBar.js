@@ -7,8 +7,8 @@ import Container from '@material-ui/core/Container';
 import InfoIcon from '@material-ui/icons/Info';
 import RecentActorsSharpIcon from '@material-ui/icons/RecentActorsSharp';
 import AssignmentTurnedInSharpIcon from '@material-ui/icons/AssignmentTurnedInSharp';
-import AndroidSharpIcon from '@material-ui/icons/AndroidSharp';
 import logo from "../images/loubana.png"
+import FaceIcon from '@material-ui/icons/Face';
 
 const useStyles = makeStyles({
   root: {
@@ -16,7 +16,9 @@ const useStyles = makeStyles({
     background:'#000'
   },
   nav: {
-    color:"white"
+    color:"white",
+    margin:"0px",
+    padding:"0px"
    },
    link: {
     padding: '12px',
@@ -28,9 +30,9 @@ const useStyles = makeStyles({
     padding:"0.40em"
   }
 });
-// const activeSt={
-//   background: 'rgba(206,226,250,0.5)'
-// }
+const activeSt={
+  background: 'rgba(206,226,250,0.5)'
+}
 function NavBar() {
   const classes = useStyles();
   const [value, setValue] = React.useState("about");
@@ -41,22 +43,27 @@ function NavBar() {
       <div className={classes.link}>
       <Container maxWidth="sm" >
       <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
-        <NavLink to="/lobanaalarabi" exact  >
+        <NavLink to="/lobanaalarabi" exact
+        activeStyle={activeSt} 
+         >
           <BottomNavigationAction  label="About" value="about" icon={<InfoIcon />} className={classes.nav} />
         </NavLink>
-        <NavLink to="/resume" exact  > 
-          <BottomNavigationAction label="resume" value="resume" icon={<AndroidSharpIcon />} className={classes.nav}/>
+        <NavLink to="/resume" exact 
+        activeStyle={activeSt}
+         > 
+          <BottomNavigationAction label="resume" value="resume" icon={<FaceIcon />} className={classes.nav}/>
         </NavLink>
-        {/* <NavLink to="/" exact ><img src={logo} alt="" className={classes.imgSt}/>
-          <BottomNavigationAction  />
-        </NavLink> */}
-        <NavLink to="/lobanaalarabi" exact ><img src={logo} alt="" className={classes.imgSt}/>
+        <NavLink to="/lobanaalarabi" exact
+        // activeStyle={activeSt}
+         ><img src={logo} alt="" className={classes.imgSt}/>
         </NavLink>
-        <NavLink to="/Portfolio" exact  > 
+        <NavLink to="/Portfolio" exact
+        activeStyle={activeSt}
+          > 
           <BottomNavigationAction label="Portfolio" value="portfolio" icon={<AssignmentTurnedInSharpIcon />} className={classes.nav}/>
         </NavLink>
         <NavLink to="/Contact" exact  
-        // activeStyle={activeSt}
+        activeStyle={activeSt}
         > 
           <BottomNavigationAction label="Contact" value="contact" icon={<RecentActorsSharpIcon />} className={classes.nav} />
         </NavLink>

@@ -31,7 +31,9 @@ const useStyles = makeStyles(theme => ({
         zIndex: 1,
         position: "relative",
         margin: theme.spacing(2),
-        background: 'rgba(206,226,250,0.30)'
+        background: 'rgba(206,226,250,0.30)',
+        padding:"1em",
+        marginBottom:"5em"
       },
   }));
 export default function Resume() {
@@ -42,13 +44,15 @@ export default function Resume() {
   };
 return (
   // <div style={ {background: 'rgba(206,226,250,0.5)',margin:"4em"}}>
-    <Container maxWidth="sm" >
+    <Container maxWidth="md" >
        <div>
           <div className={classes.wrapper}>
             <Slide direction="left" in={true} mountOnEnter unmountOnExit>
               <Paper elevation={1} className={classes.paper}>
 
-                  <img src={resume} alt="" width="100%" />
+              <div style={{padding:"0 10em"}}>
+          <img src={resume} alt="resume" height="70%" width="100%" />
+          </div>
                   <div className={classes.root}>
                 <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')} className={classes.all}>
                   <ExpansionPanelSummary

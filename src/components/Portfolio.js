@@ -20,20 +20,26 @@ const useStyles = makeStyles(theme => ({
     position: "relative",
     margin: theme.spacing(2),
     // background: 'linear-gradient(90deg, rgba(247,230,238,1) 0%, rgba(206,226,250,1) 100%)',
-    background: 'rgba(206,226,250,0.30)'
+    background: 'rgba(206,226,250,0.30)',
+    padding:"1em",
+        marginBottom:"5em"
   },
 }));
 
 export default function Portfolio() {
     const classes = useStyles();
     return (
-    <Container maxWidth="sm">
+    <Container maxWidth="md">
       <div >
       <Slide direction="left" in={true} mountOnEnter unmountOnExit>
         <Paper elevation={1} className={classes.paper}>
-        <img src={portfolio} alt="" height="50%" width="100%"/>
-        <div style={{marginTop:"1em"}}>
+        <div style={{padding:"0 10em"}}>
+          <img src={portfolio} alt="portfolio" height="70%" width="100%" />
+          </div>
+        <div style={{margin:" 1em 4em"}} >
+        <Container maxWidth="sm">
         <ControlledCarousel />
+        </Container>
         </div>
         </Paper>
       </Slide>
@@ -43,7 +49,7 @@ export default function Portfolio() {
 const urlLinks={
   background:"rgba(206,226,250,0.90)",
   color:"#000",
-  borderRadius: "3em",
+  borderRadius: "2em",
  }
 function ControlledCarousel() {
     const [index, setIndex] = useState(0);
@@ -59,9 +65,11 @@ function ControlledCarousel() {
             src={mentor} 
             alt="First slide"
           />
-          <Carousel.Caption style={urlLinks}>
-            <h3>MentorShip</h3>
+          <Carousel.Caption >
+            <div id="sliderText" style={urlLinks}>
+            <h6 >MentorShip</h6>
             <pre><a href="https://github.com/Lobana-sky/mentorship"><GitHubIcon /></a>  <a href="https://osamaakb.github.io/mentorship/"><HttpIcon /></a></pre>
+            </div>
           </Carousel.Caption>
         </Carousel.Item>
         

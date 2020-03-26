@@ -7,9 +7,16 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 500px){
+  #sliderText {
+    border-radius: "0.5em";
+
+    background-color:"rgba(206,226,250,0.1)";
+    display: none !important;
+  }
+  #sliderText h6
+  {
+    font-size: "10px";
   }
 }
 

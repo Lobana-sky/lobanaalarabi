@@ -9,10 +9,11 @@ body {
   background: linear-gradient(90deg, rgba(247,230,238,1) 0%, rgba(206,226,250,1) 100%);
   background-image: url("images/w.jpg");
   /* background-image: url("ee.jpg"); */
-  height: 35em;
+  /* height: 40em;
+  wid */
   background-position: cover; 
   background-repeat:no-repeat;
-  background-size: cover; 
+  background-size: 100% 100%;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
