@@ -9,7 +9,7 @@ import AssignmentTurnedInSharpIcon from '@material-ui/icons/AssignmentTurnedInSh
 import logo from "../images/loubana.png"
 import FaceIcon from '@material-ui/icons/Face';
 import "../App.css"
-import { red } from '@material-ui/core/colors';
+import { cyan } from '@material-ui/core/colors';
 import Tooltip from '@material-ui/core/Tooltip';
 function NavBar() {
   const [value, setValue] = React.useState("about");
@@ -18,7 +18,7 @@ function NavBar() {
   };
 
   const activeSt={
-    color: red[900],
+    color: cyan[900],
     }
     return (
       <div className="link">
@@ -27,12 +27,12 @@ function NavBar() {
         <NavLink to="/lobanaalarabi" exact
         activeStyle={activeSt} 
          >
-          <Tooltip title="about" placement="top-start"><BottomNavigationAction icon={<InfoIcon style={{ color: red[500] }} />} className="nav" /></Tooltip>
+          <Tooltip title="about" placement="top-start"><BottomNavigationAction icon={<InfoIcon style={{ color: cyan[300] }} />} className="nav" /></Tooltip>
         </NavLink>
         <NavLink to="/resume" exact 
         activeStyle={activeSt}
          > 
-          <Tooltip title="resume" placement="top-start"><BottomNavigationAction icon={<FaceIcon style={{ color: red[500] }}/>} className="nav"/></Tooltip>
+          <Tooltip title="resume" placement="top-start"><BottomNavigationAction icon={<FaceIcon style={{ color: cyan[300] }}/>} className="nav"/></Tooltip>
         </NavLink>
         <NavLink to="/lobanaalarabi" exact
          ><img src={logo} alt="" height="100%" width="100%"/>
@@ -40,12 +40,12 @@ function NavBar() {
         <NavLink to="/Portfolio" exact
         activeStyle={activeSt}
           > 
-          <Tooltip title="portfolio" placement="top-start"><BottomNavigationAction icon={<AssignmentTurnedInSharpIcon style={{ color: red[500]  }}/>} className="nav"/></Tooltip>
+          <Tooltip title="portfolio" placement="top-start"><BottomNavigationAction icon={<AssignmentTurnedInSharpIcon style={{ color: cyan[300]  }}/>} className="nav"/></Tooltip>
         </NavLink>
         <NavLink to="/Contact" exact  
         activeStyle={activeSt}
         > 
-          <Tooltip title="contact" placement="top-start"><BottomNavigationAction icon={<RecentActorsSharpIcon style={{ color: red[500] }}/>} className="nav"/></Tooltip>
+          <Tooltip title="contact" placement="top-start"><BottomNavigationAction icon={<RecentActorsSharpIcon style={{ color: cyan[300] }}/>} className="nav"/></Tooltip>
         </NavLink>
       </BottomNavigation>
       </Container>

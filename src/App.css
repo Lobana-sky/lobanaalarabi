@@ -1,7 +1,7 @@
 
 .root {
   width: 100%;
-  background-color:#000 !important
+  background-color:rgb(27, 27, 27) !important
 }
 .nav{
   color:#fff;
@@ -9,12 +9,12 @@
  }
  .link {
   padding:1em;
-  background-color:#000
+  background-color:rgb(27, 27, 27)
 }
 .paper{
     z-index: 1;
     position: relative;
-    background: rgba(206,226,250,0.30) !important;
+    background: rgba(206,226,250,0.70) !important;
     margin:1em 3em 7em 3em;
     padding:1em;
 }
