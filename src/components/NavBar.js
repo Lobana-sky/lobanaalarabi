@@ -1,5 +1,4 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import { NavLink } from 'react-router-dom';
@@ -10,61 +9,43 @@ import AssignmentTurnedInSharpIcon from '@material-ui/icons/AssignmentTurnedInSh
 import logo from "../images/loubana.png"
 import FaceIcon from '@material-ui/icons/Face';
 import "../App.css"
-
-const useStyles = makeStyles({
-  root: {
-    width: "100%",
-    background:'#000'
-  },
-  nav: {
-    color:"white",
-    margin:"0px",
-    padding:"0px"
-   },
-   link: {
-    padding: '12px',
-    background:'#000'
-  },
-  imgSt:{
-    width:"100%",
-    height:"100%",
-  }
-});
-const activeSt={
-  background: 'rgba(206,226,250,0.5)'
-}
+import { red } from '@material-ui/core/colors';
+import Tooltip from '@material-ui/core/Tooltip';
 function NavBar() {
-  const classes = useStyles();
   const [value, setValue] = React.useState("about");
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+
+  const activeSt={
+    color: red[900],
+    }
     return (
-      <div className={classes.link}>
+      <div className="link">
       <Container maxWidth="sm" id="navbar" >
-      <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
+      <BottomNavigation value={value} onChange={handleChange} className="root">
         <NavLink to="/lobanaalarabi" exact
         activeStyle={activeSt} 
          >
-          <BottomNavigationAction  label="About" value="about" icon={<InfoIcon />} className={classes.nav} />
+          <Tooltip title="about" placement="top-start"><BottomNavigationAction icon={<InfoIcon style={{ color: red[500] }} />} className="nav" /></Tooltip>
         </NavLink>
         <NavLink to="/resume" exact 
         activeStyle={activeSt}
          > 
-          <BottomNavigationAction label="resume" value="resume" icon={<FaceIcon />} className={classes.nav}/>
+          <Tooltip title="resume" placement="top-start"><BottomNavigationAction icon={<FaceIcon style={{ color: red[500] }}/>} className="nav"/></Tooltip>
         </NavLink>
         <NavLink to="/lobanaalarabi" exact
-         ><img src={logo} alt="" className={classes.imgSt}/>
+         ><img src={logo} alt="" height="100%" width="100%"/>
         </NavLink>
         <NavLink to="/Portfolio" exact
         activeStyle={activeSt}
           > 
-          <BottomNavigationAction label="Portfolio" value="portfolio" icon={<AssignmentTurnedInSharpIcon />} className={classes.nav}/>
+          <Tooltip title="portfolio" placement="top-start"><BottomNavigationAction icon={<AssignmentTurnedInSharpIcon style={{ color: red[500]  }}/>} className="nav"/></Tooltip>
         </NavLink>
         <NavLink to="/Contact" exact  
         activeStyle={activeSt}
         > 
-          <BottomNavigationAction label="Contact" value="contact" icon={<RecentActorsSharpIcon />} className={classes.nav} />
+          <Tooltip title="contact" placement="top-start"><BottomNavigationAction icon={<RecentActorsSharpIcon style={{ color: red[500] }}/>} className="nav"/></Tooltip>
         </NavLink>
       </BottomNavigation>
       </Container>

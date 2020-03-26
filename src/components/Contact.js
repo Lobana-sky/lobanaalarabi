@@ -2,7 +2,6 @@ import React from 'react'
 import contact from "../images/contactme.png"
 import Paper from "@material-ui/core/Paper";
 import Slide from "@material-ui/core/Slide";
-import { makeStyles } from "@material-ui/core/styles";
 import Card from 'react-bootstrap/Card'
 import CallIcon from '@material-ui/icons/Call';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -26,18 +25,8 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import SendIcon from '@material-ui/icons/Send';
-const useStyles = makeStyles(theme => ({
-  paper: {
-    zIndex: 1,
-    position: "relative",
-    margin: theme.spacing(2),
-    background: 'rgba(206,226,250,0.50)',
-    padding:"1em",
-    marginBottom:"5em"
-  },
-}));
+
 export default function Contact() {
-  const classes = useStyles();
   const [open, setOpen] = React.useState(false);
   const handleClickOpen = () => {
     setOpen(true);
@@ -50,9 +39,9 @@ export default function Contact() {
       <Row>
         <Col >
           <div>
-            <div className={classes.wrapper}>
+            <div>
               <Slide direction="left" in={true} mountOnEnter unmountOnExit>
-                <Paper elevation={1} className={classes.paper}>
+                <Paper elevation={1} className="paper">
                 <div className="d-flex justify-content-center">
           <img src={contact} alt="contact" height="70%" width="60%" />
           </div>

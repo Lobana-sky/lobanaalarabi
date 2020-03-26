@@ -2,7 +2,6 @@ import React from 'react';
 import aboutme from "../images/aboutme.png"
 import Paper from "@material-ui/core/Paper";
 import Slide from "@material-ui/core/Slide";
-import { makeStyles } from "@material-ui/core/styles";
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Dialog from '@material-ui/core/Dialog';
@@ -14,19 +13,8 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import "../App.css"
-const useStyles = makeStyles(theme => ({
-  paper: {
-    zIndex: 1,
-    position: "relative",
-    margin: theme.spacing(2),
-    background: 'rgba(206,226,250,0.30)',
-    padding:"1em",
-    marginBottom:"15em"
-  },
-}));
-const About = () => {
-  const classes = useStyles();
 
+const About = () => {
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -40,9 +28,9 @@ const About = () => {
       <Container fluid="md">
       <Row>
         <Col>
-    <div className={classes.wrapper}>
+    <div >
       <Slide direction="left" in={true} mountOnEnter unmountOnExit>
-        <Paper elevation={100} className={classes.paper} >
+        <Paper elevation={100} className="paper" >
           <div className="d-flex justify-content-center">
           <img src={aboutme} alt="aboutme" height="70%" width="60%" />
           </div>

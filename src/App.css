@@ -1,10 +1,22 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.root {
+  width: 100%;
+  background-color:#000 !important
+}
+.nav{
+  color:#fff;
+  
+ }
+ .link {
+  padding:1em;
+  background-color:#000
+}
+.paper{
+    z-index: 1;
+    position: relative;
+    background: rgba(206,226,250,0.30) !important;
+    margin:1em 3em 7em 3em;
+    padding:1em;
 }
 
 @media only screen and (max-width: 500px){
@@ -12,8 +24,10 @@
     display: none !important;
   }
   #navbar{
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
   }
   
 }
@@ -27,10 +41,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {

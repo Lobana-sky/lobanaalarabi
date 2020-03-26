@@ -24,21 +24,9 @@ const useStyles = makeStyles(theme => ({
       flexBasis: '33.33%',
       flexShrink: 0,
     },
-    all:{
-        color:"#880e4f"
-    },
-    secondaryHeading: {
-      fontSize: theme.typography.pxToRem(15),
-      color: theme.palette.text.secondary,
-    },
-    paper: {
-        zIndex: 1,
-        position: "relative",
-        margin: theme.spacing(2),
-        background: 'rgba(206,226,250,0.30)',
-        padding:"1em",
-        marginBottom:"5em"
-      },
+    
+    
+    
   }));
 export default function Resume() {
   const classes = useStyles();
@@ -51,22 +39,22 @@ return (
   <Row>
     <Col>
        <div>
-          <div className={classes.wrapper}>
+          <div >
             <Slide direction="left" in={true} mountOnEnter unmountOnExit>
-              <Paper elevation={1} className={classes.paper}>
+              <Paper elevation={1} className="paper">
 
               <div className="d-flex justify-content-center">
           <img src={resume} alt="resume" height="70%" width="60%" />
           </div>
                   <div className={classes.root}>
-                <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')} className={classes.all}>
+                <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')} >
                   <ExpansionPanelSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1bh-content"
                     id="panel1bh-header"
                   >
                     <Typography className={classes.heading}>Profile</Typography>
-                    <Typography className={classes.secondaryHeading}>Lobana Alarabi</Typography>
+                    <Typography className="secondaryHeading">Lobana Alarabi</Typography>
                   </ExpansionPanelSummary>
                   <ExpansionPanelDetails>
                     <Typography>
@@ -85,14 +73,14 @@ return (
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
-                <ExpansionPanel expanded={expanded === 'panel2'} onChange={handleChange('panel2')} className={classes.all}>
+                <ExpansionPanel expanded={expanded === 'panel2'} onChange={handleChange('panel2')} >
                   <ExpansionPanelSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel2bh-content"
                     id="panel2bh-header"
                   >
                     <Typography className={classes.heading}>Work Experience</Typography>
-                    <Typography className={classes.secondaryHeading}>
+                    <Typography className="secondaryHeading">
                    Aleppo University, Teaching institute, A private Libyan school,Travel Agent
 
                     </Typography>
@@ -142,14 +130,14 @@ return (
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
-                <ExpansionPanel expanded={expanded === 'panel3'} onChange={handleChange('panel3')} className={classes.all}>
+                <ExpansionPanel expanded={expanded === 'panel3'} onChange={handleChange('panel3')} >
                   <ExpansionPanelSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel3bh-content"
                     id="panel3bh-header"
                   >
                     <Typography className={classes.heading}>Technical Skills</Typography>
-                    <Typography className={classes.secondaryHeading}>
+                    <Typography className="secondaryHeading">
                     Technical Skills second 
                     </Typography>
                   </ExpansionPanelSummary>
@@ -167,14 +155,14 @@ return (
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
-                <ExpansionPanel expanded={expanded === 'panel4'} onChange={handleChange('panel4')} className={classes.all}>
+                <ExpansionPanel expanded={expanded === 'panel4'} onChange={handleChange('panel4')} >
                   <ExpansionPanelSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel4bh-content"
                     id="panel4bh-header"
                   >
                     <Typography className={classes.heading}>WorkShop </Typography>
-                    <Typography className={classes.secondaryHeading}>
+                    <Typography>
                     Syria - Turkey 
                     </Typography>
                   </ExpansionPanelSummary>
@@ -196,14 +184,14 @@ return (
                     </Typography>
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
-                <ExpansionPanel expanded={expanded === 'panel5'} onChange={handleChange('panel5')} className={classes.all}>
+                <ExpansionPanel expanded={expanded === 'panel5'} onChange={handleChange('panel5')} >
                   <ExpansionPanelSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel5bh-content"
                     id="panel5bh-header"
                   >
                     <Typography className={classes.heading}>Education</Typography>
-                    <Typography className={classes.secondaryHeading}>
+                    <Typography >
                     B.A Degree
                     </Typography>
                   </ExpansionPanelSummary>
@@ -227,10 +215,10 @@ return (
 
 
 
-                <ExpansionPanel expanded={expanded === 'panel6'} onChange={handleChange('panel6')} className={classes.all}>
+                <ExpansionPanel expanded={expanded === 'panel6'} onChange={handleChange('panel6')} >
                   <ExpansionPanelSummary>
                     <Typography className={classes.heading}>Languages</Typography>
-                    <Typography className={classes.secondaryHeading}>
+                    <Typography >
                     Arabic native - English Advanced - Turkish intermediate
                     </Typography>
                   </ExpansionPanelSummary>
