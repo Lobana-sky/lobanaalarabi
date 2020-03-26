@@ -26,6 +26,7 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import SendIcon from '@material-ui/icons/Send';
 
+
 export default function Contact() {
   const [open, setOpen] = React.useState(false);
   const handleClickOpen = () => {
@@ -45,17 +46,22 @@ export default function Contact() {
                 <div className="d-flex justify-content-center">
           <img src={contact} alt="contact" height="70%" width="60%" />
           </div>
-                <List className={"text-center"}>
-               <Row> <Col xs={12} md={4}><ListItem>
+          <div className="bounceInDown" >
+                <List className="text-center">
+               <Row> <Col xs={12} md={4}>
+              
+                 <ListItem className="App-logo">
                 <ListItemAvatar>
                   <Avatar>
                     <LocationOnIcon color='error' fontSize="large"/>
                   </Avatar>
                 </ListItemAvatar>
                 <ListItemText primary="Location" secondary="Istanbul-Turkey" />
-              </ListItem></Col>
+              </ListItem>
+              
+              </Col>
 
-      <Col xs={12} md={4}><ListItem>
+      <Col xs={12} md={4}><ListItem className="App-logo" style={{animationDelay:"1s",opacity:"0",animationFillMode: "both"}}>
         <ListItemAvatar>
           <Avatar>
             <CallIcon color='error' fontSize="large"/>
@@ -65,7 +71,7 @@ export default function Contact() {
       </ListItem></Col>
 
 
-     <Col xs={12} md={4}><ListItem>
+     <Col xs={12} md={4}><ListItem className="App-logo" style={{animationDelay:"2s",opacity:"0",animationFillMode: "both"}}>
         <ListItemAvatar>
           <Avatar>
             <EmailIcon color='error' fontSize="large"/>
@@ -75,7 +81,7 @@ export default function Contact() {
       </ListItem></Col> </Row>
 
 
-     <Row><Col xs={12} md={4}> <ListItem>
+     <Row><Col xs={12} md={4}> <ListItem className="App-logo" style={{animationDelay:"3s",opacity:"0",animationFillMode: "both"}}>
         <ListItemAvatar>
           <Avatar>
             <GitHubIcon color='error' fontSize="large"/>
@@ -86,7 +92,7 @@ export default function Contact() {
 
 
 
-     <Col xs={12} md={4}> <ListItem>
+     <Col xs={12} md={4}> <ListItem className="App-logo" style={{animationDelay:"4s",opacity:"0",animationFillMode: "both"}}>
         <ListItemAvatar>
           <Avatar>
             <LinkedInIcon color='error' fontSize="large"/>
@@ -98,7 +104,7 @@ export default function Contact() {
 
 
 
-     <Col xs={12} md={4}> <ListItem>
+     <Col xs={12} md={4}> <ListItem className="App-logo" style={{animationDelay:"5s",opacity:"0",animationFillMode: "both"}}>
         <ListItemAvatar>
           <Avatar>
             <SendIcon color='error' fontSize="large"/>
@@ -152,6 +158,7 @@ export default function Contact() {
 
 
     </List>
+    </div>
     <Card.Footer className="text-muted text-center"><span style={{fontSize:"100%",color:"red"}}>Very Welcome &hearts;</span>
                      </Card.Footer>
                 </Paper>
