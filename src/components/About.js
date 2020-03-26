@@ -34,15 +34,19 @@ const About = () => {
           <div className="d-flex justify-content-center">
           <img src={aboutme} alt="aboutme" height="70%" width="60%" />
           </div>
-          <div style={{marginTop:"1em"}}>
-          <p>Hello, my name is Lobana Alarabi.A Web Designer Junior.I was born in Aleppo Syria,
-          and now living in Turkey.I studied computer engineering in Aleppo Unevirsity specialize in artificial intelligence.
+          <div style={{marginTop:"1em"}} >
+          <p className="colorChange">Hello, my name is Lobana Alarabi.A Web Designer Junior.
+          I was born in Aleppo Syria,and now living in Turkey.
+          I studied computer engineering in Aleppo Unevirsity specialize in artificial intelligence.
+
           Programing is my life,keeping learning more and more,
-          If you have a project or creative need that I can help with,
-          <Button color="secondary" onClick={handleClickOpen}>
-          please get in touch
-      </Button>.</p>
+
+          If you have a project or creative need that I can help with 
+          </p>
       <div>
+      <Button style={{color:"#424242"}} onClick={handleClickOpen}>
+          please get in touch.<span>&#9997;</span>
+      </Button>
       
       <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
         <DialogTitle id="form-dialog-title">Your Request</DialogTitle>

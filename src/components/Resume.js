@@ -1,5 +1,4 @@
 import React from 'react'
-// import Container from '@material-ui/core/Container';
 import resume from "../images/cv.png"
 import { makeStyles } from '@material-ui/core/styles';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
@@ -24,9 +23,6 @@ const useStyles = makeStyles(theme => ({
       flexBasis: '33.33%',
       flexShrink: 0,
     },
-    
-    
-    
   }));
 export default function Resume() {
   const classes = useStyles();
@@ -35,17 +31,17 @@ export default function Resume() {
     setExpanded(isExpanded ? panel : false);
   };
 return (
-  <Container fluid="md">
+  <Container fluid="md" >
   <Row>
     <Col>
        <div>
-          <div >
+          <div>
             <Slide direction="left" in={true} mountOnEnter unmountOnExit>
               <Paper elevation={1} className="paper">
 
-              <div className="d-flex justify-content-center">
-          <img src={resume} alt="resume" height="70%" width="60%" />
-          </div>
+                  <div className="d-flex justify-content-center">
+                    <img src={resume} alt="resume" height="70%" width="60%" />
+                  </div>
                   <div className={classes.root}>
                 <ExpansionPanel expanded={expanded === 'panel1'} onChange={handleChange('panel1')} >
                   <ExpansionPanelSummary
@@ -212,14 +208,10 @@ return (
                   </ExpansionPanelDetails>
                 </ExpansionPanel>
 
-
-
-
                 <ExpansionPanel expanded={expanded === 'panel6'} onChange={handleChange('panel6')} >
                   <ExpansionPanelSummary>
                     <Typography className={classes.heading}>Languages</Typography>
-                    <Typography >
-                    Arabic native - English Advanced - Turkish intermediate
+                    <Typography >Arabic native - English Advanced - Turkish intermediate
                     </Typography>
                   </ExpansionPanelSummary>
                   

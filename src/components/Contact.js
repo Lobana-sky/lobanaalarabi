@@ -12,7 +12,6 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
-import Avatar from '@material-ui/core/Avatar';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
@@ -25,7 +24,6 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import SendIcon from '@material-ui/icons/Send';
-
 
 export default function Contact() {
   const [open, setOpen] = React.useState(false);
@@ -44,74 +42,67 @@ export default function Contact() {
               <Slide direction="left" in={true} mountOnEnter unmountOnExit>
                 <Paper elevation={1} className="paper">
                 <div className="d-flex justify-content-center">
-          <img src={contact} alt="contact" height="70%" width="60%" />
-          </div>
-          <div className="bounceInDown" >
+                <img src={contact} alt="contact" height="70%" width="60%" />
+                </div>
+                <div className="bounceInDown" >
                 <List className="text-center">
-               <Row> <Col xs={12} md={4}>
-              
-                 <ListItem className="App-logo">
+               <Row className="App-logo" style={{opacity:"0",animationFillMode: "both"}}> 
+               <Col xs={12} md={4} id="iconHover">
+                 <ListItem >
                 <ListItemAvatar>
-                  <Avatar>
-                    <LocationOnIcon color='error' fontSize="large"/>
-                  </Avatar>
+                    <LocationOnIcon fontSize="large"/>
                 </ListItemAvatar>
-                <ListItemText primary="Location" secondary="Istanbul-Turkey" />
+                <ListItemText primary="Location"  secondary="Istanbul-Turkey" className="colorChange"/>
               </ListItem>
-              
               </Col>
 
-      <Col xs={12} md={4}><ListItem className="App-logo" style={{animationDelay:"1s",opacity:"0",animationFillMode: "both"}}>
+      <Col xs={12} md={4}  id="iconHover">
+        <ListItem  >
         <ListItemAvatar>
-          <Avatar>
-            <CallIcon color='error' fontSize="large"/>
-          </Avatar>
+            <CallIcon fontSize="large"/>
         </ListItemAvatar>
-        <ListItemText primary="Phone" secondary="+90-531-687-09-54" />
+        <ListItemText primary="Phone" secondary="+90-531-687-09-54"className="colorChange" />
       </ListItem></Col>
 
 
-     <Col xs={12} md={4}><ListItem className="App-logo" style={{animationDelay:"2s",opacity:"0",animationFillMode: "both"}}>
+     <Col xs={12} md={4} id="iconHover">
+       <ListItem >
         <ListItemAvatar>
-          <Avatar>
-            <EmailIcon color='error' fontSize="large"/>
-          </Avatar>
+            <EmailIcon fontSize="large"/>
         </ListItemAvatar>
-        <ListItemText primary="Email" secondary="loubanaeng@gmail.com" />
+        <ListItemText primary="Email" secondary="loubanaeng@gmail.com" className="colorChange" />
       </ListItem></Col> </Row>
 
 
-     <Row><Col xs={12} md={4}> <ListItem className="App-logo" style={{animationDelay:"3s",opacity:"0",animationFillMode: "both"}}>
+     <Row className="App-logo1" style={{opacity:"0",animationFillMode: "both"}}>
+       <Col xs={12} md={4} id="iconHover">
+        <ListItem >
         <ListItemAvatar>
-          <Avatar>
-            <GitHubIcon color='error' fontSize="large"/>
-          </Avatar>
+            <GitHubIcon fontSize="large"/>
         </ListItemAvatar>
-        <ListItemText primary="github" secondary={<a href="https://github.com/Lobana-sky" style={{textDecoration:"none",color:"darkgrey"}}>Follow Me</a>} />
+        <ListItemText primary="github" className="colorChange" secondary={<a href="https://github.com/Lobana-sky" 
+        style={{textDecoration:"none",color:"#424242"}}>Follow Me</a>} />
       </ListItem></Col> 
 
 
 
-     <Col xs={12} md={4}> <ListItem className="App-logo" style={{animationDelay:"4s",opacity:"0",animationFillMode: "both"}}>
+     <Col xs={12} md={4} id="iconHover"> 
+     <ListItem >
         <ListItemAvatar>
-          <Avatar>
-            <LinkedInIcon color='error' fontSize="large"/>
-          </Avatar>
+            <LinkedInIcon fontSize="large"/>
         </ListItemAvatar>
-        <ListItemText primary="LinkedIn" 
-        secondary={<a href="https://www.linkedin.com/in/lobana-alarabi-38470b199/" style={{textDecoration:"none",color:"darkgrey"}}>Follow Me</a>} />
+        <ListItemText primary="LinkedIn" className="colorChange"
+        secondary={<a href="https://www.linkedin.com/in/lobana-alarabi-38470b199/" 
+        style={{textDecoration:"none",color:"#424242"}}>Follow Me</a>} />
       </ListItem></Col> 
 
-
-
-     <Col xs={12} md={4}> <ListItem className="App-logo" style={{animationDelay:"5s",opacity:"0",animationFillMode: "both"}}>
+     <Col xs={12} md={4} id="iconHover"> 
+     <ListItem>
         <ListItemAvatar>
-          <Avatar>
-            <SendIcon color='error' fontSize="large"/>
-          </Avatar>
+          <SendIcon fontSize="large"/>
         </ListItemAvatar>
-        <ListItemText primary="Send Message" 
-        secondary={<div><Button color="secondary" onClick={handleClickOpen}>
+        <ListItemText className="colorChange" primary="Send Message" 
+        secondary={<div><Button onClick={handleClickOpen} style={{textShadow: "2px 2px black"}}>
        By clicking here
     </Button>
     <div>
@@ -153,13 +144,16 @@ export default function Contact() {
         </Button>
       </DialogActions>
     </Dialog></div></div>} />
-      </ListItem></Col></Row>
+      </ListItem>
+      </Col>
+      </Row>
 
 
 
     </List>
     </div>
-    <Card.Footer className="text-muted text-center"><span style={{fontSize:"100%",color:"red"}}>Very Welcome &hearts;</span>
+    <Card.Footer className="text-muted text-center">
+      <span className="colorChange">Very Welcome <span style={{color:"red"}}>&hearts;</span></span>
                      </Card.Footer>
                 </Paper>
               </Slide>

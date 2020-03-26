@@ -27,7 +27,7 @@ function NavBar() {
         <NavLink to="/lobanaalarabi" exact
         activeStyle={activeSt} 
          >
-          <Tooltip title="about" placement="top-start"><BottomNavigationAction icon={<InfoIcon style={{ color: cyan[300] }} />} className="nav" /></Tooltip>
+          <Tooltip title="about" placement="top-start"><BottomNavigationAction icon={<InfoIcon  style={{ color: cyan[300] }} />} className="nav " /></Tooltip>
         </NavLink>
         <NavLink to="/resume" exact 
         activeStyle={activeSt}
@@ -35,7 +35,7 @@ function NavBar() {
           <Tooltip title="resume" placement="top-start"><BottomNavigationAction icon={<FaceIcon style={{ color: cyan[300] }}/>} className="nav"/></Tooltip>
         </NavLink>
         <NavLink to="/lobanaalarabi" exact
-         ><img src={logo} alt="" height="100%" width="100%"/>
+         ><img src={logo} alt="" id="loubanaImg" height="100%" width="100%"/>
         </NavLink>
         <NavLink to="/Portfolio" exact
         activeStyle={activeSt}
