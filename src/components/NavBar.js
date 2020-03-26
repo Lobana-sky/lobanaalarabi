@@ -9,6 +9,7 @@ import RecentActorsSharpIcon from '@material-ui/icons/RecentActorsSharp';
 import AssignmentTurnedInSharpIcon from '@material-ui/icons/AssignmentTurnedInSharp';
 import logo from "../images/loubana.png"
 import FaceIcon from '@material-ui/icons/Face';
+import "../App.css"
 
 const useStyles = makeStyles({
   root: {
@@ -40,7 +41,7 @@ function NavBar() {
   };
     return (
       <div className={classes.link}>
-      <Container maxWidth="sm" >
+      <Container maxWidth="sm" id="navbar" >
       <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
         <NavLink to="/lobanaalarabi" exact
         activeStyle={activeSt} 
@@ -53,7 +54,6 @@ function NavBar() {
           <BottomNavigationAction label="resume" value="resume" icon={<FaceIcon />} className={classes.nav}/>
         </NavLink>
         <NavLink to="/lobanaalarabi" exact
-        // activeStyle={activeSt}
          ><img src={logo} alt="" className={classes.imgSt}/>
         </NavLink>
         <NavLink to="/Portfolio" exact

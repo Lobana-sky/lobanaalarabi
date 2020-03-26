@@ -138,7 +138,6 @@ export default function Contact() {
           color="secondary"
         />
         <TextField
-          autoFocus
           required
           color="secondary"
           rows="4"

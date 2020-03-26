@@ -11,6 +11,10 @@
   #sliderText {
     display: none !important;
   }
+  #navbar{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
   
 }
 
