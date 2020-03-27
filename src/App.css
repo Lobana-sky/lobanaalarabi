@@ -1,4 +1,6 @@
-
+*{
+  outline:none !important
+}
 
 #loubanaImg:hover{
   opacity: 50%;
@@ -17,8 +19,8 @@ background-image: linear-gradient(92deg, #11435a 0%,rgb(21, 11, 158) 50%,rgb(55,
 background-clip: text;
 -webkit-text-fill-color: transparent;
 animation: hue 1s infinite linear;
-font-weight: 800 !important;
-font-size: 2em;}
+font-weight: 700 !important;
+font-size: 1.5em;}
 
 .root {
   width: 100%;
@@ -60,7 +62,6 @@ font-size: 2em;}
 @keyframes bounceInRight {
   from,
   60%,
-  75%,
   90%,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -76,17 +77,12 @@ font-size: 2em;}
   60% {
     opacity: 1;
     -webkit-transform: translate3d(-25px, 0, 0);
-    transform: translate3d(-25px, 0, 0);
-  }
-
-  75% {
-    -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
+    transform: translate3d(20px, 0, 0);
   }
 
   90% {
-    -webkit-transform: translate3d(-5px, 0, 0);
-    transform: translate3d(-5px, 0, 0);
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(5px, 0, 0);
   }
 
   to {
@@ -123,7 +119,6 @@ font-size: 2em;}
 @keyframes bounceInLeft {
   from,
   60%,
-  75%,
   90%,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -139,18 +134,15 @@ font-size: 2em;}
   60% {
     opacity: 1;
     -webkit-transform: translate3d(25px, 0, 0);
-    transform: translate3d(25px, 0, 0);
-  }
-  
-  75% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-20px, 0, 0);
   }
   
   90% {
-    -webkit-transform: translate3d(5px, 0, 0);
-    transform: translate3d(5px, 0, 0);
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
   }
+  
+  
   
   to {
     -webkit-transform: translate3d(0, 0, 0);

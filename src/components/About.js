@@ -1,5 +1,6 @@
 import React from 'react';
 import aboutme from "../images/aboutme.png"
+import Ben from "../images/benn.png"
 import Paper from "@material-ui/core/Paper";
 import Slide from "@material-ui/core/Slide";
 import Button from '@material-ui/core/Button';
@@ -12,6 +13,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
+import Tooltip from '@material-ui/core/Tooltip';
 import "../App.css"
 
 const About = () => {
@@ -34,7 +36,13 @@ const About = () => {
           <div className="d-flex justify-content-center">
           <img src={aboutme} alt="aboutme" height="70%" width="60%" />
           </div>
-          <div style={{marginTop:"1em"}} >
+          <div style={{float:"left",width:"30%",animationDuration:"6s"}} className="App-logo1">
+          
+          <Button style={{color:"#424242"}} onClick={handleClickOpen}>
+          <Tooltip title="It is My pleasure to visit my website for any additional info please get in touch with me you are very Welcome" placement="top-start"><img src={Ben} alt="Ben" height="30%" width="100%"/></Tooltip>
+      </Button>
+          </div>
+          <div style={{marginTop:"1em"}} className="App-logo" >
           <p className="colorChange">Hello, my name is Lobana Alarabi.A Web Designer Junior.
           I was born in Aleppo Syria,and now living in Turkey.
           I studied computer engineering in Aleppo Unevirsity specialize in artificial intelligence.

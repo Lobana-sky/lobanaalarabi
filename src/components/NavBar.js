@@ -22,7 +22,7 @@ function NavBar() {
     }
     return (
       <div className="link">
-      <Container maxWidth="sm" id="navbar" >
+      <Container maxWidth="sm" id="navbar">
       <BottomNavigation value={value} onChange={handleChange} className="root">
         <NavLink to="/lobanaalarabi" exact
         activeStyle={activeSt} 
