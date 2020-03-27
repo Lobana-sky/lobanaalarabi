@@ -138,6 +138,96 @@ font-size: 1.5em;}
 }
 
 
+
+
+
+.cardR{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 10px 18px 20px;
+  cursor: pointer;
+}
+.cardR p{
+  font-size: 10px;
+}
+.cardR span{
+  font-size: 10px;
+  font-style: italic;
+}
+.cardR:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+.cardR img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+.cardR-1{
+  background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50px;
+    background-color: #dce9ff;
+}
+/* #ceb2fc  #b8f9d3 #ffd861 #dce9ff */
+.cardR-2{
+   background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50px;
+    background-color:  #ffd861;
+}
+
+.cardR-3{
+   background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50px;
+    background-color: #b8f9d3;
+}
+
+.cardR-4{
+  background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+     background-repeat: no-repeat;
+   background-position: right;
+   background-size: 50px;
+   background-color: #ceb2fc;
+}
+.cardR-5{
+  background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+     background-repeat: no-repeat;
+   background-position: right;
+   background-size: 50px;
+   background-color: #d5e0a2;
+}
+.cardR-6{
+  background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+     background-repeat: no-repeat;
+   background-position: right;
+   background-size: 50px;
+   background-color: #fcc1b2;
+}
+@media(max-width: 990px){
+  .cardR{
+    margin: 20px;
+  }
+} 
+
+
+
+
+
+
+
+
+
 /* --------------------------------------------animation -------------------------------------------- */
 /* --------------------------------------------animation -------------------------------------------- */
 /* --------------------------------------------animation -------------------------------------------- */

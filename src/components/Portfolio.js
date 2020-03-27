@@ -32,7 +32,7 @@ export default function Portfolio() {
               <div className="center">
                 <h1 id="h1description">Mentorship</h1>
                 <span className="colorChange">team Project</span>
-                <p id="pDescription" className="colorChange">Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
+                <p id="pDescription" className="colorChange">Website where Mentor/Mentee all over the world can find each others.</p>
                 <ul>
                   <li><a href="https://github.com/Lobana-sky/mentorship">
                   <GitHubIcon /></a></li>
@@ -50,7 +50,7 @@ export default function Portfolio() {
               <div className="center">
                 <h1 id="h1description" className="colorChange">AB BU LO KA </h1>
                 <span className="colorChange">team Project</span>
-                <p id="pDescription" className="colorChange">Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
+                <p id="pDescription" className="colorChange">First Project with fellow Re:Coded using HTML CSS BOOTSTRAP.</p>
                 <ul>
                   <li><a href="https://github.com/Lobana-sky/abbulokapremium"><GitHubIcon /></a></li>
                   <li><a href="https://abbuloka.netlify.com/"><HttpIcon /></a></li>
@@ -68,7 +68,7 @@ export default function Portfolio() {
               <div className="center">
                 <h1 id="h1description">MOVIE</h1>
                 <span className="colorChange">In class Project</span>
-                <p id="pDescription" className="colorChange">Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
+                <p id="pDescription" className="colorChange">By visiting this website you will show all the popular move search your film etc.</p>
                 <ul>
                   <li><a href="https://github.com/Lobana-sky/movie-explorer/tree/team"><GitHubIcon /></a></li>
                   <li><a href="https://github.com/Lobana-sky/movie-explorer/tree/team"><HttpIcon /></a></li>
