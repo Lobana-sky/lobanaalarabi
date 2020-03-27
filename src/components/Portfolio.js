@@ -24,16 +24,15 @@ export default function Portfolio() {
           <img src={portfolio} alt="portfolio" height="70%" width="60%" />
           </div>
         <div className="Portfolio" >
-
         <div className="card">
             <div className="image">
               <img src={mentor} alt="MentorShip"/>
             </div>
             <div className="details">
               <div className="center">
-                <h1>MentorShip</h1>
+                <h1 id="h1description">Mentorship</h1>
                 <span className="colorChange">team Project</span>
-                <p className="colorChange">Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
+                <p id="pDescription" className="colorChange">Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
                 <ul>
                   <li><a href="https://github.com/Lobana-sky/mentorship">
                   <GitHubIcon /></a></li>
@@ -43,16 +42,15 @@ export default function Portfolio() {
             </div>
           </div>
 
-
           <div className="card">
             <div className="image">
               <img src={abbuloka} alt="abbuloka" />
             </div>
             <div className="details">
               <div className="center">
-                <h1 className="colorChange">abbuloka</h1>
+                <h1 id="h1description" className="colorChange">AB BU LO KA </h1>
                 <span className="colorChange">team Project</span>
-                <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
+                <p id="pDescription" className="colorChange">Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
                 <ul>
                   <li><a href="https://github.com/Lobana-sky/abbulokapremium"><GitHubIcon /></a></li>
                   <li><a href="https://abbuloka.netlify.com/"><HttpIcon /></a></li>
@@ -68,9 +66,9 @@ export default function Portfolio() {
             </div>
             <div className="details">
               <div className="center">
-                <h1 >Movie</h1>
+                <h1 id="h1description">MOVIE</h1>
                 <span className="colorChange">In class Project</span>
-                <p className="colorChange">Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
+                <p id="pDescription" className="colorChange">Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
                 <ul>
                   <li><a href="https://github.com/Lobana-sky/movie-explorer/tree/team"><GitHubIcon /></a></li>
                   <li><a href="https://github.com/Lobana-sky/movie-explorer/tree/team"><HttpIcon /></a></li>

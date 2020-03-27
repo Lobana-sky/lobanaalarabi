@@ -48,140 +48,7 @@ font-size: 1.5em;}
     padding:1em;
 }
 
-@media only screen and (max-width: 500px){
-  #sliderText {
-    display: none !important;
-  }
-  #navbar{
-    margin-left: 0.25em;
-    margin-right: 0.25em;
-    padding-left: 0.25em;
-    padding-right: 0.25em;
-  }
-  .colorChange{
-    font-weight: 400 !important;
-    font-size: 1.25em;
-  }
 
-  #benImage{
-    width:100%;
-  }
-  
-}
-
-@keyframes bounceInRight {
-  from,
-  60%,
-  90%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(3000px, 0, 0);
-    transform: translate3d(3000px, 0, 0);
-  }
-
-  40% {
-    opacity: 1;
-    -webkit-transform: translate3d(20px, 0, 0);
-    transform: translate3d(20px, 0, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(5px, 0, 0);
-    transform: translate3d(5px, 0, 0);
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-}
-
-.bounceInRight {
-  animation-name: bounceInRight;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: bounceInRight 2s;
-    /* animation-delay: 0.5s; */
-  }
-}
-
-
-@keyframes bounceInLeft {
-  from,
-  60%,
-  90%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-  
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(-3000px, 0, 0);
-    transform: translate3d(-3000px, 0, 0);
-  }
-  
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(25px, 0, 0);
-    transform: translate3d(-20px, 0, 0);
-  }
-  
-  90% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-5px, 0, 0);
-  }
-  
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-}
-
-.bounceInLeft {
-  animation-name: bounceInLeft;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo1 {
-    animation: bounceInLeft 2s;
-    
-  }
-}
-
-
-.glow {
-  /* -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate; */
-  animation-name: glow;
-  
-}
-
-@keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4c4b9e, 0 0 40px #070864, 0 0 50px #280775, 0 0 60px #281be0, 0 0 70px #080b94;
-  }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #5373db, 0 0 40px #4c4b9e, 0 0 50px #070864, 0 0 60px #280775, 0 0 70px #281be0, 0 0 80px #080b94;
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .glow {
-    animation: glow 2s ease-in-out infinite alternate;
-
-  }
-}
 
 .Portfolio{
   margin:1em;
@@ -268,4 +135,156 @@ font-size: 1.5em;}
 }
 .card .details .center ul li a:hover {
   color: cyan;
+}
+
+
+/* --------------------------------------------animation -------------------------------------------- */
+/* --------------------------------------------animation -------------------------------------------- */
+/* --------------------------------------------animation -------------------------------------------- */
+/* --------------------------------------------animation -------------------------------------------- */
+
+
+@keyframes bounceInRight {
+  from,
+  60%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  40% {
+    opacity: 1;
+    -webkit-transform: translate3d(20px, 0, 0);
+    transform: translate3d(20px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.bounceInRight {
+  animation-name: bounceInRight;
+}
+
+@keyframes bounceInLeft {
+  from,
+  60%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+  
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(-20px, 0, 0);
+  }
+  
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+  
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.bounceInLeft {
+  animation-name: bounceInLeft;
+}
+
+.glow {
+  animation-name: glow;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4c4b9e, 0 0 40px #070864, 0 0 50px #280775, 0 0 60px #281be0, 0 0 70px #080b94;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #5373db, 0 0 40px #4c4b9e, 0 0 50px #070864, 0 0 60px #280775, 0 0 70px #281be0, 0 0 80px #080b94;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  .App-logo1 {
+    animation: bounceInLeft 2s;
+  }
+  .App-logo {
+    animation: bounceInRight 2s;
+  }
+}
+
+
+/* --------------------------------------------media -------------------------------------------- */
+/* --------------------------------------------media -------------------------------------------- */
+/* --------------------------------------------media -------------------------------------------- */
+/* --------------------------------------------media -------------------------------------------- */
+
+@media only screen and (max-width: 500px){
+  #sliderText {
+    display: none !important;
+  }
+  #navbar{
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+  }
+  .colorChange{
+    font-weight: 400 !important;
+    font-size: 1.25em;
+  }
+
+  #benImage{
+    width:100%;
+  }
+  #pDescription{
+    display: none;
+  }
+  #h1description{
+    font-size: 16.5px;
+  }
+  #h1description span{
+    font-size: 5px;
+  }
+  .card {
+      height: 110px !important;
+      margin:5px auto;
+  }
+  .Portfolio{
+    margin: 0em;
+  }
+  .card .details .center {
+    padding:12px;
+  }
 }
