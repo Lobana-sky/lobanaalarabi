@@ -153,7 +153,7 @@ export default function Contact() {
     </List>
     </div>
     <Card.Footer className="text-muted text-center">
-      <span className="colorChange">Very Welcome <span style={{color:"red"}}>&hearts;</span></span>
+      <span className="colorChange glow">Very Welcome <span className=" glow">&hearts;</span></span>
                      </Card.Footer>
                 </Paper>
               </Slide>

@@ -1,8 +1,7 @@
 import portfolio from "../images/portfolio.png"
 import Paper from "@material-ui/core/Paper";
 import Slide from "@material-ui/core/Slide";
-import Carousel from 'react-bootstrap/Carousel';
-import React, {useState} from 'react';
+import React from 'react';
 import movie from "../images/movie.png";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HttpIcon from '@material-ui/icons/Http';
@@ -24,8 +23,61 @@ export default function Portfolio() {
         <div className="d-flex justify-content-center">
           <img src={portfolio} alt="portfolio" height="70%" width="60%" />
           </div>
-        <div style={{margin:" 1em 4em"}} >
-        <ControlledCarousel />
+        <div className="Portfolio" >
+
+        <div className="card">
+            <div className="image">
+              <img src={mentor} alt="MentorShip"/>
+            </div>
+            <div className="details">
+              <div className="center">
+                <h1>MentorShip</h1>
+                <span className="colorChange">team Project</span>
+                <p className="colorChange">Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
+                <ul>
+                  <li><a href="https://github.com/Lobana-sky/mentorship">
+                  <GitHubIcon /></a></li>
+                  <li><a href="https://osamaakb.github.io/mentorship/"><HttpIcon /></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="card">
+            <div className="image">
+              <img src={abbuloka} alt="abbuloka" />
+            </div>
+            <div className="details">
+              <div className="center">
+                <h1 className="colorChange">abbuloka</h1>
+                <span className="colorChange">team Project</span>
+                <p>Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
+                <ul>
+                  <li><a href="https://github.com/Lobana-sky/abbulokapremium"><GitHubIcon /></a></li>
+                  <li><a href="https://abbuloka.netlify.com/"><HttpIcon /></a></li>
+                
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="image">
+              <img src={movie} alt="movie" />
+            </div>
+            <div className="details">
+              <div className="center">
+                <h1 >Movie</h1>
+                <span className="colorChange">In class Project</span>
+                <p className="colorChange">Lorem ipsum is simple dummy text on the printing and typesetting industry.</p>
+                <ul>
+                  <li><a href="https://github.com/Lobana-sky/movie-explorer/tree/team"><GitHubIcon /></a></li>
+                  <li><a href="https://github.com/Lobana-sky/movie-explorer/tree/team"><HttpIcon /></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>  
         </div>
         </Paper>
       </Slide>
@@ -34,62 +86,3 @@ export default function Portfolio() {
   </Row>
 </Container>
 )}
-const urlLinks={
-  background:"rgba(206,226,250,0.90)",
-  color:"#000",
-  borderRadius: "2em",
- }
-function ControlledCarousel() {
-    const [index, setIndex] = useState(0);
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
-    };
-  
-    return (
-      <Carousel activeIndex={index} onSelect={handleSelect}>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={mentor} 
-            alt="First slide"
-          />
-          <Carousel.Caption >
-            <div id="sliderText" style={urlLinks}>
-            <h3 >MentorShip</h3>
-            <pre><a href="https://github.com/Lobana-sky/mentorship"><GitHubIcon /></a> <a href="https://osamaakb.github.io/mentorship/"><HttpIcon /></a></pre>
-            </div>
-          </Carousel.Caption>
-        </Carousel.Item>
-        
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={abbuloka} 
-            alt="Second slide"
-          />
-  
-          <Carousel.Caption >
-          <div id="sliderText" style={urlLinks}>
-          <h3>Abbuloka</h3>
-            <pre><a href="https://github.com/Lobana-sky/abbulokapremium"><GitHubIcon /></a>  <a href="https://abbuloka.netlify.com"><HttpIcon /></a></pre>
-            </div>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={movie} height="100%" width="100%"
-            alt="Third slide"
-          />
-  
-          <Carousel.Caption >
-          <div id="sliderText" style={urlLinks}>
-          <h3>Movie</h3>
-            <pre><a href="https://github.com/Lobana-sky/movie-explorer/tree/team"><GitHubIcon /></a>  <a href="https://github.com/Lobana-sky/movie-explorer/tree/team"><HttpIcon /></a></pre>
-            </div>
-          </Carousel.Caption>
-        </Carousel.Item> 
-      </Carousel>
-    );
-  }
-  

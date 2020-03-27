@@ -36,19 +36,18 @@ const About = () => {
           <div className="d-flex justify-content-center">
           <img src={aboutme} alt="aboutme" height="70%" width="60%" />
           </div>
-          <div style={{float:"left",width:"30%",animationDuration:"6s"}} className="App-logo1">
-          
+          <div id="benImage"  className="App-logo1">
           <Button style={{color:"#424242"}} onClick={handleClickOpen}>
-          <Tooltip title="It is My pleasure to visit my website for any additional info please get in touch with me you are very Welcome" placement="top-start"><img src={Ben} alt="Ben" height="30%" width="100%"/></Tooltip>
+          <Tooltip title="It is My pleasure to visit my website for any additional info please get in touch with me you are very Welcome" 
+          placement="top-start">
+          <img  src={Ben} alt="Ben" height="30%" width="100%"/></Tooltip>
       </Button>
           </div>
           <div style={{marginTop:"1em"}} className="App-logo" >
           <p className="colorChange">Hello, my name is Lobana Alarabi.A Web Designer Junior.
           I was born in Aleppo Syria,and now living in Turkey.
           I studied computer engineering in Aleppo Unevirsity specialize in artificial intelligence.
-
           Programing is my life,keeping learning more and more,
-
           If you have a project or creative need that I can help with 
           </p>
       <div>

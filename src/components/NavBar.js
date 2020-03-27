@@ -18,7 +18,7 @@ function NavBar() {
   };
 
   const activeSt={
-    color: cyan[900],
+    background: cyan[900],
     }
     return (
       <div className="link">
