@@ -36,7 +36,7 @@ export default function Contact() {
     return (
       <Container fluid="md">
       <Row>
-        <Col >
+        <Col>
           <div>
             <div>
               <Slide direction="left" in={true} mountOnEnter unmountOnExit>

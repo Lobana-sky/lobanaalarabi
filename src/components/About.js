@@ -40,7 +40,7 @@ const About = () => {
           <Button style={{color:"#424242"}} onClick={handleClickOpen}>
           <Tooltip title="It is My pleasure to visit my website for any additional info please get in touch with me you are very Welcome" 
           placement="top-start">
-          <img  src={Ben} alt="Ben" height="30%" width="100%"/></Tooltip>
+          <img id="imgHI" src={Ben} alt="Ben" height="30%" width="100%"/></Tooltip>
       </Button>
           </div>
           <div style={{marginTop:"1em"}} className="App-logo" >

@@ -221,13 +221,6 @@ font-size: 1.5em;}
 } 
 
 
-
-
-
-
-
-
-
 /* --------------------------------------------animation -------------------------------------------- */
 /* --------------------------------------------animation -------------------------------------------- */
 /* --------------------------------------------animation -------------------------------------------- */
@@ -274,10 +267,9 @@ font-size: 1.5em;}
 @keyframes bounceInLeft {
   from,
   60%,
-  90%,
   to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 1);
   }
   
   0% {
@@ -292,10 +284,6 @@ font-size: 1.5em;}
     transform: translate3d(-20px, 0, 0);
   }
   
-  90% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-5px, 0, 0);
-  }
   
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -355,8 +343,10 @@ font-size: 1.5em;}
     font-size: 1.25em;
   }
 
-  #benImage{
-    width:100%;
+  #imgHI{
+    height: 150px;
+    width: 75px;
+    margin-top:30px;
   }
   #pDescription{
     display: none;
@@ -369,12 +359,32 @@ font-size: 1.5em;}
   }
   .card {
       height: 110px !important;
-      margin:5px auto;
+      margin:3px !important;
   }
   .Portfolio{
-    margin: 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .card .details .center {
     padding:12px;
   }
+.container{
+    padding:0px 0px !important;
+    margin: 0px !important;
+    font-size: 10px;
+  }
+  .mobileres{
+    padding:0px 0px !important;
+    margin: 0px !important;
+  }
+  .fontMobile
+  {
+    font-size: 8px;
+    margin-bottom: 2px;
+  }
+  #root > div > div.container-md > div > div.container > div > div.col-md-4.mobileres > div{
+    margin:2px;
+  }
+  
 }
