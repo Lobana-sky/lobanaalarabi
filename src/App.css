@@ -328,7 +328,7 @@ font-size: 1.5em;}
 /* --------------------------------------------media -------------------------------------------- */
 /* --------------------------------------------media -------------------------------------------- */
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
   #sliderText {
     display: none !important;
   }
@@ -342,7 +342,11 @@ font-size: 1.5em;}
     font-weight: 400 !important;
     font-size: 1.25em;
   }
-
+  .nav{
+    padding: 10px 12px 7px;
+    max-width: 50px !important; 
+    min-width: 50px !important;
+  }
   #imgHI{
     height: 150px;
     width: 75px;
@@ -352,10 +356,10 @@ font-size: 1.5em;}
     display: none;
   }
   #h1description{
-    font-size: 16.5px;
+    font-size: 13px;
   }
   #h1description span{
-    font-size: 5px;
+    font-size: 3px !important;
   }
   .card {
       height: 110px !important;
@@ -372,19 +376,18 @@ font-size: 1.5em;}
 .container{
     padding:0px 0px !important;
     margin: 0px !important;
-    font-size: 10px;
+    font-size: 8px;
   }
   .mobileres{
     padding:0px 0px !important;
     margin: 0px !important;
   }
-  .fontMobile
-  {
-    font-size: 8px;
+  .fontMobile{
+    font-size: 5px;
     margin-bottom: 2px;
   }
   #root > div > div.container-md > div > div.container > div > div.col-md-4.mobileres > div{
-    margin:2px;
+    margin:1.5px;
   }
   
 }

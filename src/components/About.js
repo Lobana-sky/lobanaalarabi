@@ -41,7 +41,7 @@ const About = () => {
           <Tooltip title="It is My pleasure to visit my website for any additional info please get in touch with me you are very Welcome" 
           placement="top-start">
           <img id="imgHI" src={Ben} alt="Ben" height="30%" width="100%"/></Tooltip>
-      </Button>
+          </Button>
           </div>
           <div style={{marginTop:"1em"}} className="App-logo" >
           <p className="colorChange">Hello, my name is Lobana Alarabi.A Web Designer Junior.

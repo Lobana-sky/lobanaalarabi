@@ -67,7 +67,7 @@ export default function Portfolio() {
             <div className="details">
               <div className="center">
                 <h1 id="h1description">MOVIE</h1>
-                <span className="colorChange">In class Project</span>
+                <span className="colorChange">In class</span>
                 <p id="pDescription" className="colorChange">By visiting this website you will show all the popular move search your film etc.</p>
                 <ul>
                   <li><a href="https://github.com/Lobana-sky/movie-explorer/tree/team"><GitHubIcon /></a></li>
