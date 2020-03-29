@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lobanaalarabi/static/css/main.0e8949a6.chunk.css",
-    "main.js": "/lobanaalarabi/static/js/main.ce7a29b8.chunk.js",
-    "main.js.map": "/lobanaalarabi/static/js/main.ce7a29b8.chunk.js.map",
+    "main.js": "/lobanaalarabi/static/js/main.44ffa710.chunk.js",
+    "main.js.map": "/lobanaalarabi/static/js/main.44ffa710.chunk.js.map",
     "runtime-main.js": "/lobanaalarabi/static/js/runtime-main.06a8d674.js",
     "runtime-main.js.map": "/lobanaalarabi/static/js/runtime-main.06a8d674.js.map",
     "static/css/2.de424728.chunk.css": "/lobanaalarabi/static/css/2.de424728.chunk.css",
     "static/js/2.3207fbaa.chunk.js": "/lobanaalarabi/static/js/2.3207fbaa.chunk.js",
     "static/js/2.3207fbaa.chunk.js.map": "/lobanaalarabi/static/js/2.3207fbaa.chunk.js.map",
     "index.html": "/lobanaalarabi/index.html",
-    "precache-manifest.bb98747a16f886713a9d05ec67ca41e5.js": "/lobanaalarabi/precache-manifest.bb98747a16f886713a9d05ec67ca41e5.js",
+    "precache-manifest.d461c1c865ed2c9d2fbfd3568b3f09ee.js": "/lobanaalarabi/precache-manifest.d461c1c865ed2c9d2fbfd3568b3f09ee.js",
     "service-worker.js": "/lobanaalarabi/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/lobanaalarabi/static/css/2.de424728.chunk.css.map",
     "static/css/main.0e8949a6.chunk.css.map": "/lobanaalarabi/static/css/main.0e8949a6.chunk.css.map",
@@ -32,6 +32,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.3207fbaa.chunk.js",
     "static/css/main.0e8949a6.chunk.css",
-    "static/js/main.ce7a29b8.chunk.js"
+    "static/js/main.44ffa710.chunk.js"
   ]
 }
