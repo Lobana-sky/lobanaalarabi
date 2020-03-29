@@ -9,13 +9,6 @@ import ResumePDF from "../images/lobananalarabi_job.pdf"
 import Button from 'react-bootstrap/Button'
 export default function Resume() {
 
-  // <Link
-  //               to=".pdf"
-  //               target="_blank"
-  //               download
-  //             >
-  //                 <Button variant="danger">Download as PDF</Button>
-  //             </Link>
 return (
   <Container fluid="md" >
        <Slide direction="left" in={true} mountOnEnter unmountOnExit>
@@ -133,7 +126,7 @@ return (
                     </div>
                     <div className="d-flex justify-content-center">
                     <Button variant="outline-info" >
-                    <a href={ResumePDF} target="_blank" className="glow" style={{textDecoration:"none",fontSize:"20px"}}>Resume Download here</a>
+                    <a href={ResumePDF} target="_blank" className="glow" style={{textDecoration:"none",fontSize:"20px",color:"white"}}>Resume Download here</a>
                     </Button>
                     </div>
               </Paper>

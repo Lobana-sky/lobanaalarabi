@@ -179,10 +179,10 @@ font-size: 1.5em;}
 
 /* import imgCrds from "../images/resume10.jpg" */
 .cardR-1{
-   background-image: url("images/resume10.jpg");
-      background-repeat: no-repeat;
-    /* background-position: right; */
-    background-size: 100% 100%;
+   background-image: url("images/resume101.jpg");
+  background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
     
     /* background-color:  #ffd861; */
 }
