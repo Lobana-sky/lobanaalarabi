@@ -1,10 +1,12 @@
 import React from 'react'
 import resume from "../images/cv.png"
+
 import Paper from "@material-ui/core/Paper";
 import Slide from "@material-ui/core/Slide";
 import Container from 'react-bootstrap/Container'
 import "../App.css"
 import ResumePDF from "../images/lobananalarabi_job.pdf"
+import Button from 'react-bootstrap/Button'
 export default function Resume() {
 
   // <Link
@@ -19,14 +21,14 @@ return (
        <Slide direction="left" in={true} mountOnEnter unmountOnExit>
               <Paper elevation={1} className="paper">
                   <div className="d-flex justify-content-center">
-                    <img src={resume} alt="resume" height="70%" width="60%" />
+                  <img src={resume} alt="resume" height="70%" width="60%" />
                   </div>
 
 
                   <div className="container" style={{margin:"1em"}}>
                       <div className="row" style={{margin:"1em"}}>
                         <div className="col-md-4 mobileres">
-                          <div className="cardR cardR-4">
+                          <div className="cardR cardR-1">
                             <h3 className="colorChange">Profile</h3>
                             <span className="colorChange">Female | 9/march/1990 | syrian</span>
                             <p className="colorChange fontMobile">My name is Lobana Alarabi.A Web Designer Junior.I was born in Aleppo Syria,
@@ -35,18 +37,18 @@ return (
                           </div>
                         </div>
                         <div className="col-md-4 mobileres">
-                          <div className="cardR cardR-2">
+                          <div className="cardR cardR-1">
                             <h3 className="colorChange">Technical Skills</h3>
-                            <span className="colorChange">Female | 9/march/1990 | syrian</span>
+                            <span className="colorChange"></span>
                             <p className="colorChange fontMobile">Good command of Microsoft Visual studio, Sql server 2008, Matlab.
                           I training on webots ,sql server 2008.
                           I develop myself in Neural Network, fuzzy logic.</p>
                           </div>
                         </div>
                         <div className="col-md-4 mobileres">
-                          <div className="cardR cardR-3">
+                          <div className="cardR cardR-1">
                             <h3 className="colorChange">WorkShop</h3>
-                            <span className="colorChange">Female | 9/march/1990 | syrian</span>
+                            <span className="colorChange"></span>
                             <p className="colorChange fontMobile"><ul >
                             <li>Advanced c#</li>
                             <li>Coded Front End Web Development</li>
@@ -100,7 +102,7 @@ return (
 
                       <div className="row" style={{margin:"1em"}}>
                         <div className="col-md-4 mobileres">
-                          <div className="cardR cardR-6">
+                          <div className="cardR cardR-1">
                             <h3 className="colorChange">Education</h3>
                             <span className="colorChange"> B.A Degree (2008 - 2013)</span>
                             <p className="colorChange fontMobile"> B.A. Informatics engineering at the <a href="https://alepuniv.edu.sy/view-faculty/faculty-of-informatics-engineering">Aleppo University</a> with
@@ -109,24 +111,30 @@ return (
                           </div>
                         </div>
                         <div className="col-md-4 mobileres">
-                          <div className="cardR cardR-5">
+                          <div className="cardR cardR-1">
+                            <h3 className="colorChange">Education</h3>
+                            <span className="colorChange">(Flatiron School - NY, USA) 2019 - 2020</span>
+                            <p className="colorChange fontMobile">Re:Coded Bootcamp Istanbul, Turkey 
+                            Front End Web Development including HTML, CSS, JavaScript, 
+                            React (5 months long intense web development program run by 
+                            Re:Coded using Flatiron curriculum access. Applied flip-class system and 
+                            a lot of team projects during the Bootcamp) </p>
+                          </div>
+                        </div>
+                        <div className="col-md-4 mobileres">
+                          <div className="cardR cardR-1">
                             <h3 className="colorChange">Languages</h3>
                             <span className="colorChange"></span>
                             <p className="colorChange fontMobile">Arabic native - English Advanced - Turkish intermediate</p>
                           </div>
                         </div>
-                        <div className="col-md-4">
-                        <a href={ResumePDF} target="_blank" className="glow" style={{textDecoration:"none"}}>
-                          <div className="cardR cardR-3">
-<h3 className="colorChange">All The previous Information and more, you could download  <p>By clicking here</p></h3>
-                            {/* <span className="colorChange"></span>
-                            <p className="colorChange"> <span></span>.</p> */}
-                          </div>
-                          </a>
-                        </div>
                       </div>
 
-
+                    </div>
+                    <div className="d-flex justify-content-center">
+                    <Button variant="outline-info" >
+                    <a href={ResumePDF} target="_blank" className="glow" style={{textDecoration:"none",fontSize:"20px"}}>Resume Download here</a>
+                    </Button>
                     </div>
               </Paper>
             </Slide>

@@ -168,22 +168,25 @@ font-size: 1.5em;}
   max-height: 120px;
 }
 
-.cardR-1{
+/* .cardR-1{
   background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
       background-repeat: no-repeat;
     background-position: right;
     background-size: 50px;
     background-color: #dce9ff;
-}
+} */
 /* #ceb2fc  #b8f9d3 #ffd861 #dce9ff */
-.cardR-2{
-   background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
-      background-repeat: no-repeat;
-    background-position: right;
-    background-size: 50px;
-    background-color:  #ffd861;
-}
 
+/* import imgCrds from "../images/resume10.jpg" */
+.cardR-1{
+   background-image: url("images/resume10.jpg");
+      background-repeat: no-repeat;
+    /* background-position: right; */
+    background-size: 100% 100%;
+    
+    /* background-color:  #ffd861; */
+}
+/* 
 .cardR-3{
    background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
       background-repeat: no-repeat;
@@ -212,7 +215,7 @@ font-size: 1.5em;}
    background-position: right;
    background-size: 50px;
    background-color: #fcc1b2;
-}
+} */
 @media(max-width: 990px){
   .cardR{
     margin: 20px;
