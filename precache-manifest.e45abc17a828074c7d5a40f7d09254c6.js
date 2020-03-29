@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a52b99f5bbffd3dc9349131c1cf2d6ab",
+    "revision": "d072928bea7c7f214f6ede9faede20e3",
     "url": "/lobanaalarabi/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lobanaalarabi/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "64c544205d5d3aabccef",
+    "revision": "18a2993a31bd64bfe14d",
     "url": "/lobanaalarabi/static/css/main.0e8949a6.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lobanaalarabi/static/js/2.3207fbaa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64c544205d5d3aabccef",
-    "url": "/lobanaalarabi/static/js/main.02f05e58.chunk.js"
+    "revision": "18a2993a31bd64bfe14d",
+    "url": "/lobanaalarabi/static/js/main.38f0d95a.chunk.js"
   },
   {
     "revision": "d519d31dffd7bfa59a02",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lobanaalarabi/static/media/loubana.c52880de.png"
   },
   {
-    "revision": "cb3ce9aab301a8fdacb5187fd85f0bf0",
-    "url": "/lobanaalarabi/static/media/mentor.cb3ce9aa.PNG"
+    "revision": "286ec61998433fefdefe052afa967b16",
+    "url": "/lobanaalarabi/static/media/mentor.286ec619.PNG"
   },
   {
     "revision": "337bea0d972adf8f72e714582ead1e20",

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lobanaalarabi/static/css/main.0e8949a6.chunk.css",
-    "main.js": "/lobanaalarabi/static/js/main.02f05e58.chunk.js",
-    "main.js.map": "/lobanaalarabi/static/js/main.02f05e58.chunk.js.map",
+    "main.js": "/lobanaalarabi/static/js/main.38f0d95a.chunk.js",
+    "main.js.map": "/lobanaalarabi/static/js/main.38f0d95a.chunk.js.map",
     "runtime-main.js": "/lobanaalarabi/static/js/runtime-main.06a8d674.js",
     "runtime-main.js.map": "/lobanaalarabi/static/js/runtime-main.06a8d674.js.map",
     "static/css/2.de424728.chunk.css": "/lobanaalarabi/static/css/2.de424728.chunk.css",
     "static/js/2.3207fbaa.chunk.js": "/lobanaalarabi/static/js/2.3207fbaa.chunk.js",
     "static/js/2.3207fbaa.chunk.js.map": "/lobanaalarabi/static/js/2.3207fbaa.chunk.js.map",
     "index.html": "/lobanaalarabi/index.html",
-    "precache-manifest.88b211a674010dea4a2fc91ac68e44ed.js": "/lobanaalarabi/precache-manifest.88b211a674010dea4a2fc91ac68e44ed.js",
+    "precache-manifest.e45abc17a828074c7d5a40f7d09254c6.js": "/lobanaalarabi/precache-manifest.e45abc17a828074c7d5a40f7d09254c6.js",
     "service-worker.js": "/lobanaalarabi/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/lobanaalarabi/static/css/2.de424728.chunk.css.map",
     "static/css/main.0e8949a6.chunk.css.map": "/lobanaalarabi/static/css/main.0e8949a6.chunk.css.map",
@@ -22,7 +22,7 @@
     "static/media/cv.png": "/lobanaalarabi/static/media/cv.56121787.png",
     "static/media/lobananalarabi_job.pdf": "/lobanaalarabi/static/media/lobananalarabi_job.80bed625.pdf",
     "static/media/loubana.png": "/lobanaalarabi/static/media/loubana.c52880de.png",
-    "static/media/mentor.PNG": "/lobanaalarabi/static/media/mentor.cb3ce9aa.PNG",
+    "static/media/mentor.PNG": "/lobanaalarabi/static/media/mentor.286ec619.PNG",
     "static/media/movie.png": "/lobanaalarabi/static/media/movie.337bea0d.png",
     "static/media/portfolio.png": "/lobanaalarabi/static/media/portfolio.5e950a7f.png",
     "static/media/App.css": "/lobanaalarabi/static/media/resume101.dbfec4a2.jpg"
@@ -32,6 +32,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.3207fbaa.chunk.js",
     "static/css/main.0e8949a6.chunk.css",
-    "static/js/main.02f05e58.chunk.js"
+    "static/js/main.38f0d95a.chunk.js"
   ]
 }
