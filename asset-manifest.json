@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lobanaalarabi/static/css/main.0e8949a6.chunk.css",
-    "main.js": "/lobanaalarabi/static/js/main.44ffa710.chunk.js",
-    "main.js.map": "/lobanaalarabi/static/js/main.44ffa710.chunk.js.map",
+    "main.js": "/lobanaalarabi/static/js/main.02f05e58.chunk.js",
+    "main.js.map": "/lobanaalarabi/static/js/main.02f05e58.chunk.js.map",
     "runtime-main.js": "/lobanaalarabi/static/js/runtime-main.06a8d674.js",
     "runtime-main.js.map": "/lobanaalarabi/static/js/runtime-main.06a8d674.js.map",
     "static/css/2.de424728.chunk.css": "/lobanaalarabi/static/css/2.de424728.chunk.css",
     "static/js/2.3207fbaa.chunk.js": "/lobanaalarabi/static/js/2.3207fbaa.chunk.js",
     "static/js/2.3207fbaa.chunk.js.map": "/lobanaalarabi/static/js/2.3207fbaa.chunk.js.map",
     "index.html": "/lobanaalarabi/index.html",
-    "precache-manifest.d461c1c865ed2c9d2fbfd3568b3f09ee.js": "/lobanaalarabi/precache-manifest.d461c1c865ed2c9d2fbfd3568b3f09ee.js",
+    "precache-manifest.88b211a674010dea4a2fc91ac68e44ed.js": "/lobanaalarabi/precache-manifest.88b211a674010dea4a2fc91ac68e44ed.js",
     "service-worker.js": "/lobanaalarabi/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/lobanaalarabi/static/css/2.de424728.chunk.css.map",
     "static/css/main.0e8949a6.chunk.css.map": "/lobanaalarabi/static/css/main.0e8949a6.chunk.css.map",
@@ -17,7 +17,7 @@
     "static/media/index.css": "/lobanaalarabi/static/media/40.49b6fbc1.png",
     "static/media/abbuloka.png": "/lobanaalarabi/static/media/abbuloka.f94bca67.png",
     "static/media/aboutme.png": "/lobanaalarabi/static/media/aboutme.bb25afc0.png",
-    "static/media/benn.png": "/lobanaalarabi/static/media/benn.3661378d.png",
+    "static/media/benn.png": "/lobanaalarabi/static/media/benn.a37877dc.png",
     "static/media/contactme.png": "/lobanaalarabi/static/media/contactme.d6e0bd43.png",
     "static/media/cv.png": "/lobanaalarabi/static/media/cv.56121787.png",
     "static/media/lobananalarabi_job.pdf": "/lobanaalarabi/static/media/lobananalarabi_job.80bed625.pdf",
@@ -32,6 +32,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.3207fbaa.chunk.js",
     "static/css/main.0e8949a6.chunk.css",
-    "static/js/main.44ffa710.chunk.js"
+    "static/js/main.02f05e58.chunk.js"
   ]
 }
