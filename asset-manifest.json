@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/lobanaalarabi/static/css/main.54083181.chunk.css",
-    "main.js": "/lobanaalarabi/static/js/main.45b5c4dd.chunk.js",
-    "main.js.map": "/lobanaalarabi/static/js/main.45b5c4dd.chunk.js.map",
+    "main.css": "/lobanaalarabi/static/css/main.a44f4006.chunk.css",
+    "main.js": "/lobanaalarabi/static/js/main.4173e247.chunk.js",
+    "main.js.map": "/lobanaalarabi/static/js/main.4173e247.chunk.js.map",
     "runtime-main.js": "/lobanaalarabi/static/js/runtime-main.06a8d674.js",
     "runtime-main.js.map": "/lobanaalarabi/static/js/runtime-main.06a8d674.js.map",
     "static/css/2.de424728.chunk.css": "/lobanaalarabi/static/css/2.de424728.chunk.css",
-    "static/js/2.152c77d5.chunk.js": "/lobanaalarabi/static/js/2.152c77d5.chunk.js",
-    "static/js/2.152c77d5.chunk.js.map": "/lobanaalarabi/static/js/2.152c77d5.chunk.js.map",
+    "static/js/2.7e583987.chunk.js": "/lobanaalarabi/static/js/2.7e583987.chunk.js",
+    "static/js/2.7e583987.chunk.js.map": "/lobanaalarabi/static/js/2.7e583987.chunk.js.map",
     "index.html": "/lobanaalarabi/index.html",
-    "precache-manifest.4d359f109c0c7374a2fbc94e628483e1.js": "/lobanaalarabi/precache-manifest.4d359f109c0c7374a2fbc94e628483e1.js",
+    "precache-manifest.e47add68f5fadb74a911ede1f0d7aee1.js": "/lobanaalarabi/precache-manifest.e47add68f5fadb74a911ede1f0d7aee1.js",
     "service-worker.js": "/lobanaalarabi/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/lobanaalarabi/static/css/2.de424728.chunk.css.map",
-    "static/css/main.54083181.chunk.css.map": "/lobanaalarabi/static/css/main.54083181.chunk.css.map",
-    "static/js/2.152c77d5.chunk.js.LICENSE.txt": "/lobanaalarabi/static/js/2.152c77d5.chunk.js.LICENSE.txt",
+    "static/css/main.a44f4006.chunk.css.map": "/lobanaalarabi/static/css/main.a44f4006.chunk.css.map",
+    "static/js/2.7e583987.chunk.js.LICENSE.txt": "/lobanaalarabi/static/js/2.7e583987.chunk.js.LICENSE.txt",
     "static/media/index.css": "/lobanaalarabi/static/media/40.49b6fbc1.png",
     "static/media/abbuloka.png": "/lobanaalarabi/static/media/abbuloka.f94bca67.png",
     "static/media/aboutme.png": "/lobanaalarabi/static/media/aboutme.bb25afc0.png",
     "static/media/benn.png": "/lobanaalarabi/static/media/benn.3661378d.png",
     "static/media/contactme.png": "/lobanaalarabi/static/media/contactme.d6e0bd43.png",
     "static/media/cv.png": "/lobanaalarabi/static/media/cv.56121787.png",
+    "static/media/lobananalarabi_job.pdf": "/lobanaalarabi/static/media/lobananalarabi_job.80bed625.pdf",
     "static/media/loubana.png": "/lobanaalarabi/static/media/loubana.c52880de.png",
     "static/media/mentor.PNG": "/lobanaalarabi/static/media/mentor.cb3ce9aa.PNG",
     "static/media/movie.png": "/lobanaalarabi/static/media/movie.337bea0d.png",
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.06a8d674.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.152c77d5.chunk.js",
-    "static/css/main.54083181.chunk.css",
-    "static/js/main.45b5c4dd.chunk.js"
+    "static/js/2.7e583987.chunk.js",
+    "static/css/main.a44f4006.chunk.css",
+    "static/js/main.4173e247.chunk.js"
   ]
 }
