@@ -40,21 +40,23 @@ const About = () => {
           <Button style={{color:"#424242"}} onClick={handleClickOpen}>
           <Tooltip title="It is My pleasure to visit my website for any additional info please get in touch with me you are very Welcome" 
           placement="top-start">
-          <img id="imgHI" src={Ben} alt="Ben" width="100%"/></Tooltip>
+          <img id="imgHI" src={Ben} alt="Ben" width="70%"/></Tooltip>
           </Button>
           </div>
-          <div style={{marginTop:"3em"}} className="App-logo" >
-          <p className="colorChange">Hello, my name is Lobana Alarabi.A Web Designer Junior.
+          <div style={{marginTop:"2em"}} className="App-logo" >
+          <p className="colorChange">Hello, my name is Lobana Alarabi.{<br></br> }A Web Designer Junior.
           I was born in Aleppo Syria,and now living in Turkey.
           I studied computer engineering in Aleppo Unevirsity specialize in artificial intelligence.
-          Programing is my life,keeping learning more and more,
-          If you have a project or creative need that I can help with 
+          Programing is my life,keeping learning more and more.
           </p>
+
+          <div className="d-flex justify-content-center">
+          <p className="colorChange">If you have a project or creative need that I can help with.</p>
+          <Button style={{color:"#424242"}} onClick={handleClickOpen}>
+          <span style={{fontSize:"1.25em"}}> please get in touch.&#9997;</span>
+          </Button>
+          </div>
       <div>
-      <Button style={{color:"#424242"}} onClick={handleClickOpen}>
-          please get in touch.<span>&#9997;</span>
-      </Button>
-      
       <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
         <DialogTitle id="form-dialog-title">Your Request</DialogTitle>
         <DialogContent>
