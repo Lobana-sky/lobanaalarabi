@@ -4,8 +4,16 @@ import Paper from "@material-ui/core/Paper";
 import Slide from "@material-ui/core/Slide";
 import Container from 'react-bootstrap/Container'
 import "../App.css"
+import ResumePDF from "../images/lobananalarabi_job.pdf"
 export default function Resume() {
-  
+
+  // <Link
+  //               to=".pdf"
+  //               target="_blank"
+  //               download
+  //             >
+  //                 <Button variant="danger">Download as PDF</Button>
+  //             </Link>
 return (
   <Container fluid="md" >
        <Slide direction="left" in={true} mountOnEnter unmountOnExit>
@@ -107,16 +115,15 @@ return (
                             <p className="colorChange fontMobile">Arabic native - English Advanced - Turkish intermediate</p>
                           </div>
                         </div>
-                        {/* <div className="col-md-4">
+                        <div className="col-md-4">
+                        <a href={ResumePDF} target="_blank" className="glow" style={{textDecoration:"none"}}>
                           <div className="cardR cardR-3">
-                            <h3 className="colorChange">Theming</h3>
-                            <span className="colorChange">Sales Officer at Alghareb Travel Agency</span>
-                            <p className="colorChange"> I work as a social media marketing – designer at <a href="http://www.alghareb-tourism.com/">Alghareb Agency</a> 
-                          Website supervisor and article editor 
-                          Ticket and hotel booking on IATI System ,Amadeus and other airlines systems also on
-                          Travel Insurance systems <span>present</span>.</p>
+<h3 className="colorChange">All The previous Information and more, you could download  <p>By clicking here</p></h3>
+                            {/* <span className="colorChange"></span>
+                            <p className="colorChange"> <span></span>.</p> */}
                           </div>
-                        </div> */}
+                          </a>
+                        </div>
                       </div>
 
 
