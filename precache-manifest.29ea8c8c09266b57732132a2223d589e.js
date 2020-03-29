@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "53d665cb476f210a6029765ed49deaf0",
+    "revision": "262644ee503c17d936a807628682d0bf",
     "url": "/lobanaalarabi/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lobanaalarabi/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "60fc859604fc77b1edcb",
-    "url": "/lobanaalarabi/static/css/main.77761d20.chunk.css"
+    "revision": "3bf472ed0cbe00985ad4",
+    "url": "/lobanaalarabi/static/css/main.0e8949a6.chunk.css"
   },
   {
     "revision": "05f65b0d7c70e106a0d5",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lobanaalarabi/static/js/2.3207fbaa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "60fc859604fc77b1edcb",
+    "revision": "3bf472ed0cbe00985ad4",
     "url": "/lobanaalarabi/static/js/main.23d7a0d4.chunk.js"
   },
   {
@@ -72,7 +72,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lobanaalarabi/static/media/portfolio.5e950a7f.png"
   },
   {
-    "revision": "b8a5aafe53c6d0f1e073d27d1afaf296",
-    "url": "/lobanaalarabi/static/media/resume10.b8a5aafe.jpg"
+    "revision": "dbfec4a26a240c1619bb1bd304284cf6",
+    "url": "/lobanaalarabi/static/media/resume101.dbfec4a2.jpg"
   }
 ]);
