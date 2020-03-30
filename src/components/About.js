@@ -17,12 +17,10 @@ import Tooltip from '@material-ui/core/Tooltip';
 import "../App.css"
 
 const About = () => {
-  const [open, setOpen] = React.useState(false);
-
-  const handleClickOpen = () => {
+const [open, setOpen] = React.useState(false);
+const handleClickOpen = () => {
     setOpen(true);
   };
-
   const handleClose = () => {
     setOpen(false);
   };
@@ -56,45 +54,45 @@ const About = () => {
           <span style={{fontSize:"1.25em"}}> please get in touch.&#9997;</span>
           </Button>
           </div>
-      <div>
-      <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
-        <DialogTitle id="form-dialog-title">Your Request</DialogTitle>
-        <DialogContent>
-          <DialogContentText>
-            
-          </DialogContentText>
-          <TextField
-            autoFocus
-            required
-            margin="dense"
-            id="name"
-            label="Email Address"
-            type="email"
-            fullWidth
-            color="secondary"
-          />
-          <TextField
-            required
-            color="secondary"
-            rows="4"
-            margin="dense"
-            id="message"
-            label="Message"
-            fullWidth
-            placeholder="Your Message"
-            multiline
-          />
-        </DialogContent>
-        <DialogActions>
-          <Button onClick={handleClose} color="secondary">
-            Cancel
-          </Button>
-          <Button onClick={handleClose} color="secondary">
-            Send
-          </Button>
-        </DialogActions>
-      </Dialog>
-    </div>
+              <div>
+              <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
+                <DialogTitle id="form-dialog-title">Your Request</DialogTitle>
+                <DialogContent>
+                  <DialogContentText>
+                    
+                  </DialogContentText>
+                  <TextField
+                    autoFocus
+                    required
+                    margin="dense"
+                    id="name"
+                    label="Email Address"
+                    type="email"
+                    fullWidth
+                    color="secondary"
+                  />
+                  <TextField
+                    required
+                    color="secondary"
+                    rows="4"
+                    margin="dense"
+                    id="message"
+                    label="Message"
+                    fullWidth
+                    placeholder="Your Message"
+                    multiline
+                  />
+                </DialogContent>
+                <DialogActions>
+                  <Button onClick={handleClose} color="secondary">
+                    Cancel
+                  </Button>
+                  <Button onClick={handleClose} color="secondary">
+                    Send
+                  </Button>
+                </DialogActions>
+              </Dialog>
+            </div>
           </div>
         </Paper>
       </Slide>

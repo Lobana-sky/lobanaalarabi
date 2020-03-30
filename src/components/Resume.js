@@ -1,6 +1,5 @@
 import React from 'react'
 import resume from "../images/cv.png"
-
 import Paper from "@material-ui/core/Paper";
 import Slide from "@material-ui/core/Slide";
 import Container from 'react-bootstrap/Container'
@@ -16,7 +15,6 @@ return (
                   <div className="d-flex justify-content-center">
                   <img src={resume} alt="resume" height="70%" width="60%" />
                   </div>
-
 
                   <div className="container" style={{margin:"1em"}}>
                       <div className="row" style={{margin:"1em"}}>
@@ -52,8 +50,6 @@ return (
                           </div>
                         </div>
                       </div>
-
-
                   
                       <div className="row" style={{margin:"1em"}}>
                         <div className="col-md-4 mobileres">
@@ -90,9 +86,6 @@ return (
                         </div>
                       </div>
 
-
-
-
                       <div className="row" style={{margin:"1em"}}>
                         <div className="col-md-4 mobileres">
                           <div className="cardR cardR-1">
@@ -122,16 +115,17 @@ return (
                           </div>
                         </div>
                       </div>
-
                     </div>
                     <div className="d-flex justify-content-center">
                     <Button variant="outline-info" >
-                    <a href={ResumePDF} target="_blank"  rel="noopener noreferrer" className="glow" style={{textDecoration:"none",fontSize:"20px",color:"white"}}>Resume Download here</a>
+                    <a href={ResumePDF} target="_blank"  
+                    rel="noopener noreferrer" className="glow" 
+                    style={{textDecoration:"none",fontSize:"20px",color:"white"}}>
+                    Resume Download here</a>
                     </Button>
                     </div>
               </Paper>
             </Slide>
-         
 </Container>
 )
 }

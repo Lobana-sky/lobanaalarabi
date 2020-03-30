@@ -364,7 +364,7 @@ font-size: 1.5em;}
     font-size: 3px !important;
   }
   .card {
-      height: 110px !important;
+      height: 90px !important;
       margin:3px !important;
   }
   .Portfolio{
@@ -390,6 +390,9 @@ font-size: 1.5em;}
   }
   #root > div > div.container-md > div > div.container > div > div.col-md-4.mobileres > div{
     margin:1.5px;
+  }
+  .hid{
+    display: none;
   }
   
 }

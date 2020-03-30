@@ -23,15 +23,15 @@ export default function Portfolio() {
         <div className="d-flex justify-content-center">
           <img src={portfolio} alt="portfolio" height="70%" width="60%" />
           </div>
-        <div className="Portfolio" >
-        <div className="card">
+          <div className="Portfolio" >
+          <div className="card">
             <div className="image">
               <img src={mentor} alt="MentorShip"/>
-            </div>
-            <div className="details">
+              </div>
+              <div className="details">
               <div className="center">
                 <h1 id="h1description">Mentorship</h1>
-                <span className="colorChange">team Project</span>
+                <span className="colorChange hid">Team Project</span>
                 <p id="pDescription" className="colorChange">Website where Mentor/Mentee all over the world can find each others.</p>
                 <ul>
                   <li><a href="https://github.com/Lobana-sky/mentorship">
@@ -48,8 +48,8 @@ export default function Portfolio() {
             </div>
             <div className="details">
               <div className="center">
-                <h1 id="h1description" className="colorChange">AB BU LO KA </h1>
-                <span className="colorChange">team Project</span>
+                <h1 id="h1description" className="colorChange">ABBULOKA</h1>
+                <span className="colorChange hid">Team Project</span>
                 <p id="pDescription" className="colorChange">First Project with fellow Re:Coded using HTML CSS BOOTSTRAP.</p>
                 <ul>
                   <li><a href="https://github.com/Lobana-sky/abbulokapremium"><GitHubIcon /></a></li>
@@ -67,7 +67,7 @@ export default function Portfolio() {
             <div className="details">
               <div className="center">
                 <h1 id="h1description">MOVIE</h1>
-                <span className="colorChange">In class</span>
+                <span className="colorChange hid">In class</span>
                 <p id="pDescription" className="colorChange">By visiting this website you will show all the popular move search your film etc.</p>
                 <ul>
                   <li><a href="https://github.com/Lobana-sky/movie-explorer/tree/team"><GitHubIcon /></a></li>
