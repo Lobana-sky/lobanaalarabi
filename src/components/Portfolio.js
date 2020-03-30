@@ -13,6 +13,7 @@ import Container from 'react-bootstrap/Container'
 import "../App.css"
 
 export default function Portfolio() {
+  
     return (
       <Container fluid="md">
       <Row>
@@ -24,7 +25,7 @@ export default function Portfolio() {
           <img src={portfolio} alt="portfolio" height="70%" width="60%" />
           </div>
           <div className="Portfolio" >
-          <div className="card">
+          <div className="card card-1" >
             <div className="image">
               <img src={mentor} alt="MentorShip"/>
               </div>
@@ -42,7 +43,7 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card card-2">
             <div className="image">
               <img src={abbuloka} alt="abbuloka" />
             </div>
@@ -60,7 +61,7 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card card-3">
             <div className="image">
               <img src={movie} alt="movie" />
             </div>

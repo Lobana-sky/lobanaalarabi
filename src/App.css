@@ -136,9 +136,15 @@ font-size: 1.5em;}
   color: cyan;
 }
 
-
-
-
+.card-1{
+  background-image: url("/images/mentor.PNG");
+}
+.card-2{
+  background-image: url("/images/abbuloka.PNG");
+}
+.card-3{
+  background-image: url("/images/movie.PNG");
+}
 
 .cardR{
     border-radius: 4px;
@@ -168,6 +174,7 @@ font-size: 1.5em;}
   max-height: 120px;
 }
 
+
 /* .cardR-1{
   background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
       background-repeat: no-repeat;
@@ -187,8 +194,8 @@ font-size: 1.5em;}
     /* background-color:  #ffd861; */
 }
 /* 
-.cardR-3{
-   background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+.card-3{
+   background-image: url("mentor.PNG");
       background-repeat: no-repeat;
     background-position: right;
     background-size: 50px;
@@ -363,7 +370,9 @@ font-size: 1.5em;}
   #h1description span{
     font-size: 3px !important;
   }
+
   .card {
+    
       height: 90px !important;
       margin:3px !important;
   }
