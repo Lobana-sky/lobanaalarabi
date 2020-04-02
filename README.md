@@ -2,9 +2,6 @@ Live link: https://lobana-sky.github.io/lobanaalarabi/
 
 
 <img src="https://github.com/Lobana-sky/lobanaalarabi/blob/master/websitePhotos/portfolio.PNG" alt="About me"/>
-<img src="https://github.com/Lobana-sky/lobanaalarabi/blob/master/websitePhotos/portfolio1.PNG" alt="Portfolio"/>
-<img src="https://github.com/Lobana-sky/lobanaalarabi/blob/master/websitePhotos/portfolio2.PNG" alt="Contact me"/>
-<img src="https://github.com/Lobana-sky/lobanaalarabi/blob/master/websitePhotos/portfolio3.PNG" alt="Resume"/>
 
 
 
