@@ -1,7 +1,7 @@
 Live link: https://lobana-sky.github.io/lobanaalarabi/
 
 
-https://github.com/Lobana-sky/lobanaalarabi/blob/master/websitePhotos/portfolio.PNG
+<img src="https://github.com/Lobana-sky/lobanaalarabi/blob/master/websitePhotos/portfolio.PNG" alt=""/>
 
 
 
