@@ -6,7 +6,7 @@ import Container from '@material-ui/core/Container';
 import InfoIcon from '@material-ui/icons/Info';
 import RecentActorsSharpIcon from '@material-ui/icons/RecentActorsSharp';
 import AssignmentTurnedInSharpIcon from '@material-ui/icons/AssignmentTurnedInSharp';
-import logo from "../images/loubana.png"
+import logo from "../media/loubana.png"
 import FaceIcon from '@material-ui/icons/Face';
 import "../App.css"
 import { cyan } from '@material-ui/core/colors';

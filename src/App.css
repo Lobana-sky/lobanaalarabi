@@ -53,7 +53,7 @@ font-size: 1.5em;}
   margin:1em;
 }
 .card {
-  background-image: url("/images/movie.PNG");
+  background-image: url("/media/movie.PNG");
   margin:2em auto;
     width: 60%;
     height: 200px;
@@ -138,13 +138,13 @@ font-size: 1.5em;}
 }
 
 .card-1{
-  background-image: url("/images/mentor.PNG");
+  background-image: url("/media/mentor.PNG");
 }
 .card-2{
-  background-image: url("/images/abbuloka.PNG");
+  background-image: url("/media/abbuloka.PNG");
 }
 .card-3{
-  background-image: url("/images/movie.PNG");
+  background-image: url("/media/movie.PNG");
 }
 
 .cardR{
@@ -176,7 +176,7 @@ font-size: 1.5em;}
 }
 
 .cardR-1{
-  background-image: url("images/resume101.jpg");
+  background-image: url("media/resume101.jpg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;

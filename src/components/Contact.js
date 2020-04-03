@@ -1,5 +1,5 @@
 import React from 'react'
-import contact from "../images/contactme.png"
+import contact from "../media/contactme.png"
 import Paper from "@material-ui/core/Paper";
 import Slide from "@material-ui/core/Slide";
 import Card from 'react-bootstrap/Card'
