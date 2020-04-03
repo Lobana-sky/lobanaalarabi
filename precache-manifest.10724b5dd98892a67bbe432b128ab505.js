@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9fa5afe9c51008fad754b57f3b0e911",
+    "revision": "3c1113dff6008770d0e7eb0ff83116bc",
     "url": "/lobanaalarabi/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lobanaalarabi/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "1ada053c3877dd78c7aa",
-    "url": "/lobanaalarabi/static/css/main.300d580d.chunk.css"
+    "revision": "0ae49d297c17eae4e0e1",
+    "url": "/lobanaalarabi/static/css/main.1807bb4d.chunk.css"
   },
   {
     "revision": "05f65b0d7c70e106a0d5",
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lobanaalarabi/static/js/2.3207fbaa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ada053c3877dd78c7aa",
-    "url": "/lobanaalarabi/static/js/main.7a55e2ba.chunk.js"
+    "revision": "0ae49d297c17eae4e0e1",
+    "url": "/lobanaalarabi/static/js/main.5afddb9e.chunk.js"
   },
   {
     "revision": "d519d31dffd7bfa59a02",
     "url": "/lobanaalarabi/static/js/runtime-main.06a8d674.js"
   },
   {
-    "revision": "49b6fbc1533f79e42a6a61eaa34529fb",
-    "url": "/lobanaalarabi/static/media/40.49b6fbc1.png"
+    "revision": "318bfe0b91dd617966c23eaf46419341",
+    "url": "/lobanaalarabi/static/media/Lobana Alarabi Resume.318bfe0b.pdf"
   },
   {
     "revision": "f94bca6733fcdd1fe4cf36c67e0401b8",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bb25afc0d1e23445fe815393f76e7331",
     "url": "/lobanaalarabi/static/media/aboutme.bb25afc0.png"
+  },
+  {
+    "revision": "49b6fbc1533f79e42a6a61eaa34529fb",
+    "url": "/lobanaalarabi/static/media/background.49b6fbc1.png"
   },
   {
     "revision": "a37877dc59474aa6aea700f9f9b924ba",
@@ -50,10 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "56121787100182a3c51ec7efce2b22d5",
     "url": "/lobanaalarabi/static/media/cv.56121787.png"
-  },
-  {
-    "revision": "80bed625481a9618e452122f200ac295",
-    "url": "/lobanaalarabi/static/media/lobananalarabi_job.80bed625.pdf"
   },
   {
     "revision": "c52880de42eff7b0e0c7a7604edaa6fb",
