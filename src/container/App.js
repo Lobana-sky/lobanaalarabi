@@ -18,6 +18,7 @@ const App = (props) => {
       <Route exact path="/resume" component={Resume} />
       <Route exact path="/Portfolio" component={Portfolio} />
       <Route exact path="/Contact" component={Contact} />
+      <Divider light />
     </Router>
     </div>
   );
