@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "029ff5485e6a39ba74d94e8cb26891b5",
+    "revision": "d47acde6747759efe3644ad676fbe0b9",
     "url": "/lobanaalarabi/index.html"
   },
   {
-    "revision": "2ef8907f7b99f329bfe0",
+    "revision": "81d53022590d0e43e6a5",
     "url": "/lobanaalarabi/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "173bc162218ca45166ed",
-    "url": "/lobanaalarabi/static/css/main.1807bb4d.chunk.css"
+    "revision": "ade087bfc444d48a954c",
+    "url": "/lobanaalarabi/static/css/main.943a8a2d.chunk.css"
   },
   {
-    "revision": "2ef8907f7b99f329bfe0",
-    "url": "/lobanaalarabi/static/js/2.29fd2ebb.chunk.js"
+    "revision": "81d53022590d0e43e6a5",
+    "url": "/lobanaalarabi/static/js/2.253a9ead.chunk.js"
   },
   {
     "revision": "d09ac505fec0e9130a1d5b85fb3fa6dc",
-    "url": "/lobanaalarabi/static/js/2.29fd2ebb.chunk.js.LICENSE.txt"
+    "url": "/lobanaalarabi/static/js/2.253a9ead.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "173bc162218ca45166ed",
-    "url": "/lobanaalarabi/static/js/main.7040a606.chunk.js"
+    "revision": "ade087bfc444d48a954c",
+    "url": "/lobanaalarabi/static/js/main.5139b702.chunk.js"
   },
   {
     "revision": "d519d31dffd7bfa59a02",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "56121787100182a3c51ec7efce2b22d5",
     "url": "/lobanaalarabi/static/media/cv.56121787.png"
+  },
+  {
+    "revision": "aaef4bb333042915a1ab82973a213a85",
+    "url": "/lobanaalarabi/static/media/ee.aaef4bb3.jpg"
   },
   {
     "revision": "c52880de42eff7b0e0c7a7604edaa6fb",
