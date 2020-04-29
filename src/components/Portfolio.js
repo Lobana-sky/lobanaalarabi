@@ -6,7 +6,8 @@ import movie from "../media/movie.png";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HttpIcon from '@material-ui/icons/Http';
 import mentor from "../media/mentor.PNG";
-import abbuloka from "../media/abbuloka.png"
+import abbuloka from "../media/abbuloka.png";
+import natakallam from "../media/ee.jpg"
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
@@ -25,7 +26,7 @@ export default function Portfolio() {
           <img src={portfolio} alt="portfolio" height="70%" width="60%" />
           </div>
           <div className="Portfolio" >
-          <div className="card card-1" >
+          <div className="card" >
             <div className="image">
               <img src={mentor} alt="MentorShip"/>
               </div>
@@ -43,7 +44,7 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <div className="card card-2">
+          <div className="card">
             <div className="image">
               <img src={abbuloka} alt="abbuloka" />
             </div>
@@ -55,13 +56,12 @@ export default function Portfolio() {
                 <ul>
                   <li><a href="https://github.com/Lobana-sky/abbulokapremium"><GitHubIcon /></a></li>
                   <li><a href="https://abbuloka.netlify.com/"><HttpIcon /></a></li>
-                
                 </ul>
               </div>
             </div>
           </div>
 
-          <div className="card card-3">
+          <div className="card">
             <div className="image">
               <img src={movie} alt="movie" />
             </div>
@@ -77,6 +77,24 @@ export default function Portfolio() {
               </div>
             </div>
           </div>  
+
+          <div className="card">
+            <div className="image">
+              <img src={natakallam} alt="namakallam" />
+            </div>
+            <div className="details">
+              <div className="center">
+                <h1 id="h1description">Natakallam</h1>
+                <span className="colorChange hid">Client Project</span>
+                <p id="pDescription" className="colorChange">real project to comunicate speaker native with learner.</p>
+                <ul>
+                  <li><a href="https://github.com/Lobana-sky/movie-explorer/tree/team"><GitHubIcon /></a></li>
+                  <li><a href="https://ntk.netlify.app/"><HttpIcon /></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
         </div>
         </Paper>
       </Slide>

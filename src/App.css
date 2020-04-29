@@ -136,17 +136,6 @@ font-size: 1.5em;}
 .card .details .center ul li a:hover {
   color: cyan;
 }
-
-.card-1{
-  background-image: url("/media/mentor.PNG");
-}
-.card-2{
-  background-image: url("/media/abbuloka.PNG");
-}
-.card-3{
-  background-image: url("/media/movie.PNG");
-}
-
 .cardR{
     border-radius: 4px;
     background: #fff;
@@ -166,8 +155,6 @@ font-size: 1.5em;}
      transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
-
-
 .cardR img{
   position: absolute;
   top: 20px;
