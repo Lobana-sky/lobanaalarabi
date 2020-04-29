@@ -4,7 +4,6 @@ import Paper from "@material-ui/core/Paper";
 import Slide from "@material-ui/core/Slide";
 import Container from 'react-bootstrap/Container'
 import "../App.css"
-import ResumePDF from "../media/Lobana Alarabi Resume.pdf"
 import Button from 'react-bootstrap/Button'
 export default function Resume() {
 
