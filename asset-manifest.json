@@ -1,37 +1,40 @@
 {
   "files": {
     "main.css": "/lobanaalarabi/static/css/main.943a8a2d.chunk.css",
-    "main.js": "/lobanaalarabi/static/js/main.5139b702.chunk.js",
-    "main.js.map": "/lobanaalarabi/static/js/main.5139b702.chunk.js.map",
+    "main.js": "/lobanaalarabi/static/js/main.a6c5a35a.chunk.js",
+    "main.js.map": "/lobanaalarabi/static/js/main.a6c5a35a.chunk.js.map",
     "runtime-main.js": "/lobanaalarabi/static/js/runtime-main.06a8d674.js",
     "runtime-main.js.map": "/lobanaalarabi/static/js/runtime-main.06a8d674.js.map",
     "static/css/2.de424728.chunk.css": "/lobanaalarabi/static/css/2.de424728.chunk.css",
-    "static/js/2.253a9ead.chunk.js": "/lobanaalarabi/static/js/2.253a9ead.chunk.js",
-    "static/js/2.253a9ead.chunk.js.map": "/lobanaalarabi/static/js/2.253a9ead.chunk.js.map",
+    "static/js/2.22fda8db.chunk.js": "/lobanaalarabi/static/js/2.22fda8db.chunk.js",
+    "static/js/2.22fda8db.chunk.js.map": "/lobanaalarabi/static/js/2.22fda8db.chunk.js.map",
     "index.html": "/lobanaalarabi/index.html",
-    "precache-manifest.24716db6523534166578b08becfab017.js": "/lobanaalarabi/precache-manifest.24716db6523534166578b08becfab017.js",
+    "precache-manifest.d71a037c7b23ccb5232a757e4cad44fc.js": "/lobanaalarabi/precache-manifest.d71a037c7b23ccb5232a757e4cad44fc.js",
     "service-worker.js": "/lobanaalarabi/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/lobanaalarabi/static/css/2.de424728.chunk.css.map",
     "static/css/main.943a8a2d.chunk.css.map": "/lobanaalarabi/static/css/main.943a8a2d.chunk.css.map",
-    "static/js/2.253a9ead.chunk.js.LICENSE.txt": "/lobanaalarabi/static/js/2.253a9ead.chunk.js.LICENSE.txt",
+    "static/js/2.22fda8db.chunk.js.LICENSE.txt": "/lobanaalarabi/static/js/2.22fda8db.chunk.js.LICENSE.txt",
     "static/media/abbuloka.png": "/lobanaalarabi/static/media/abbuloka.f94bca67.png",
     "static/media/aboutme.png": "/lobanaalarabi/static/media/aboutme.bb25afc0.png",
     "static/media/index.css": "/lobanaalarabi/static/media/background.49b6fbc1.png",
     "static/media/benn.png": "/lobanaalarabi/static/media/benn.a37877dc.png",
     "static/media/contactme.png": "/lobanaalarabi/static/media/contactme.d6e0bd43.png",
     "static/media/cv.png": "/lobanaalarabi/static/media/cv.56121787.png",
-    "static/media/ee.jpg": "/lobanaalarabi/static/media/ee.aaef4bb3.jpg",
+    "static/media/eyelash.png": "/lobanaalarabi/static/media/eyelash.5df6680d.png",
     "static/media/loubana.png": "/lobanaalarabi/static/media/loubana.c52880de.png",
     "static/media/mentor.PNG": "/lobanaalarabi/static/media/mentor.286ec619.PNG",
     "static/media/movie.png": "/lobanaalarabi/static/media/movie.337bea0d.png",
+    "static/media/natakallam.png": "/lobanaalarabi/static/media/natakallam.eae64bcb.png",
     "static/media/portfolio.png": "/lobanaalarabi/static/media/portfolio.5e950a7f.png",
-    "static/media/App.css": "/lobanaalarabi/static/media/resume101.dbfec4a2.jpg"
+    "static/media/App.css": "/lobanaalarabi/static/media/resume101.dbfec4a2.jpg",
+    "static/media/spaceGroup.png": "/lobanaalarabi/static/media/spaceGroup.8392c650.png",
+    "static/media/yemek.png": "/lobanaalarabi/static/media/yemek.f7695a9f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.06a8d674.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.253a9ead.chunk.js",
+    "static/js/2.22fda8db.chunk.js",
     "static/css/main.943a8a2d.chunk.css",
-    "static/js/main.5139b702.chunk.js"
+    "static/js/main.a6c5a35a.chunk.js"
   ]
 }
