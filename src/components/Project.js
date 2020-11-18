@@ -1,8 +1,6 @@
 import React from 'react';
-import {Paper,Slide} from "@material-ui/core";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import HttpIcon from '@material-ui/icons/Http';
-import {Row,Col,Container} from 'react-bootstrap';
 import "../App.css"
 
 export default function Project({src,alt,projectName,type,description,githubLink,demoLink}) {

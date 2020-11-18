@@ -42,7 +42,7 @@ font-size: 1.5em;}
 .paper{
     z-index: 1;
     position: relative;
-    background: rgba(206,226,250,0.50) !important;
+    background: rgba(247, 247, 244, 0.7) !important;
     margin-top:1em;
     padding:1em;
 }
