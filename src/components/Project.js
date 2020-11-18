@@ -15,8 +15,8 @@ export default function Project({src,alt,projectName,type,description,githubLink
               <div className="details">
               <div className="center">
               <h1 id="h1description">{projectName}</h1>
-    <span className="colorChange hid">{type}</span>
-    <p id="pDescription" className="colorChange">{description}</p>
+                    <span className="colorChange hid">{type}</span>
+                    <p id="pDescription" className="colorChange">{description}</p>
                 <ul>
                   <li><a href={githubLink}>
                   <GitHubIcon /></a></li>

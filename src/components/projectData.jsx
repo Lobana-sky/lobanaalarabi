@@ -5,6 +5,7 @@ import natakallam from "../media/natakallam.png"
 import yemek from "../media/yemek.png";
 import eyelash from "../media/eyelash.png";
 import spaceGroup from "../media/spaceGroup.png";
+import todoList from "../media/todoList.png";
 const projectData=[
     {
         id:1,
@@ -76,7 +77,16 @@ const projectData=[
         githubLink:"http://spacegroup.itc-center.com/",
         demoLink:"http://spacegroup.itc-center.com/"
     },
-      // {
+      {
+        id:8,
+        src:todoList,
+        projectName:"ToDo List",
+        type:"Training Project",
+        description:"A training app to add check as completed and delete your task with local storage",
+        githubLink:"https://github.com/Lobana-sky/ToDoList",
+        demoLink:"https://lobana-sky.github.io/ToDoList/"
+    },
+         // {
     //     src:,
     //     projectName:,
     //     type:,
