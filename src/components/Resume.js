@@ -118,7 +118,7 @@ return (
                     <div className="d-flex justify-content-center">
                     <Button variant="outline-info" >
                     {/* <a href="https://docs.google.com/document/d/e/2PACX-1vRpfCr310QemoqHZqac4DUrOwi0XENu-vQ8pYJVyta2UQ8IBkL29mt9dwn2YHtX7XVp-frPFeAiWkGd/pub" target="_blank"   */}
-                    <a href="https://drive.google.com/file/d/15ZZymNi6AXXFItKVA3px9_YdW7-s8yOw/view?usp=sharing" target="_blank"  
+                    <a href="https://docs.google.com/document/d/1x0hJBXJYRY7P5Njsl5Fcg3Hj3mYm0hYbQ9kwjDLXKWc/edit?usp=sharing" target="_blank"  
                     rel="noopener noreferrer" className="glow" 
                     style={{textDecoration:"none",fontSize:"20px",color:"white"}}>
                     Resume Download here</a>
